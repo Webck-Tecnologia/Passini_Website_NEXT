@@ -244,7 +244,7 @@ export default function ServiceDetails({ params }) {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">Ficou interessado?</div>
-                      <h2 className="main-title fw-500 text-white m0">Não hesite em nos enviar uma mensagem..</h2>
+                      <h2 className="main-title fw-500 text-white m0">Não hesite em nos enviar uma mensagem.</h2>
                     </div>
                   </div>
                   <div className="col-lg-5 ms-auto text-center text-lg-end">

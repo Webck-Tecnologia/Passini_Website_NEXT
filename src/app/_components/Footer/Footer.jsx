@@ -8,10 +8,10 @@ const Footer = () => {
       column: "col-lg-2 col-md-3 col-sm-6 mb-30",
       items: [
         { label: "Home", href: "/" },
-        { label: "Serviços", href: "/pricing" },
-        { label: "Empresa", href: "/about-v1" },
-        { label: "Blog", href: "#" },
-        { label: "Contat", href: "#" },
+        { label: "Serviços", href: "/servico" },
+        { label: "Empresa", href: "/empresa" },
+        { label: "Blog", href: "/blog" },
+        { label: "Contato", href: "/contato" },
       ],
     },
     {

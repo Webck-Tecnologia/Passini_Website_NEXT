@@ -41,7 +41,7 @@ const Header3 = () => {
   };
 
   // Defina as rotas que precisam de uma header fixa
-  const fixedHeaderPaths = ["/contato", "/servico", "/empresa", "/blog"];
+  const fixedHeaderPaths = ["/contato", "/servico", "/empresa", "/blog", "/detalhes_do_servico"];
   const isFixedHeader = fixedHeaderPaths.includes(pathname);
 
   return (
