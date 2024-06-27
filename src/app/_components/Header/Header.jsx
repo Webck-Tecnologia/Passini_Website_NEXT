@@ -37,12 +37,27 @@ const Header3 = () => {
     if (link === "/") {
       return pathname === "/" || pathname === "/home"; // Considera tanto "/" quanto "/home" como ativos
     }
+    if (link === "/servico") {
+      return pathname.startsWith("/servico") || pathname.startsWith("/detalhes_do_servico");
+    }
+    if (link === "/blog") {
+      return pathname.startsWith("/blog");
+    }
     return pathname.startsWith(link); // Verifica se o pathname começa com o link fornecido
   };
 
   // Defina as rotas que precisam de uma header fixa
-  const fixedHeaderPaths = ["/contato", "/servico", "/empresa", "/blog", "/detalhes_do_servico"];
-  const isFixedHeader = fixedHeaderPaths.includes(pathname);
+  const fixedHeaderPaths = [
+    "/contato", 
+    "/servico", 
+    "/empresa", 
+    "/blog", 
+    "/detalhes_do_servico/grua-sl", 
+    "/detalhes_do_servico/elevadores", 
+    "/detalhes_do_servico/projetos-especiais"
+  ];
+
+  const isFixedHeader = fixedHeaderPaths.some((path) => pathname.startsWith(path));
 
   return (
     <header

@@ -110,6 +110,7 @@ export default function ServiceDetails({ params }) {
           <div className="row">
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
+                <br/>
                 <div className="sc-title-two fst-italic position-relative">
                   Detalhes do serviço
                 </div>

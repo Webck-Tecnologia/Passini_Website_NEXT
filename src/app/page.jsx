@@ -1,8 +1,7 @@
-"use client"; // Não é uma diretiva válida no JavaScript ou em projetos Next.js, ajustei para o uso de useEffect
+'use client'
 
 import { useEffect } from 'react';
 import RootLayout from "./RootLayout";
-import Header from "./_components/Header";
 import Hero from "./_components/Hero";
 import "aos/dist/aos.css";
 import "../styles/index.scss";
@@ -15,6 +14,7 @@ import Comentarios from "./_components/Testimonials/page";
 import ContactForm from "./_components/ContactForm/ContactForm";
 import Inferior from "./_components/Footer/page";
 import Header3 from './_components/Header/Header';
+import CookieConsent from './_components/cookies';
 
 export default function Page() {
   useEffect(() => {
@@ -129,6 +129,7 @@ export default function Page() {
           </div>
         </div>
         <Inferior />
+        <CookieConsent />
       </RootLayout>
     </div>
   );

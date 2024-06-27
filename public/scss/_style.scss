@@ -308,6 +308,11 @@ p {
   color: #ffffff !important;
   font-family: "Nunito Sans", sans-serif !important;
 }
+.root-layout {
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+}
 .dp-none{
   display: none !important;
   transition: all 0.3s ease-in-out;
