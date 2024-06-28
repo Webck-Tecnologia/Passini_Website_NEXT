@@ -35,7 +35,6 @@ const Blog = () => {
               {/* /.blog-header */}
               <div className="blog-footer d-flex align-items-center justify-content-between mt-auto">
                 <div className="blog-date tran3s fw-500 tx-dark">
-                  Featured -
                   <a href="#" className="fw-normal tran3s">
                     {item.date}
                   </a>
