@@ -38,7 +38,7 @@ export default function Page() {
                         />
                         <div className="title-style-one">
                           <h2 className="main-title fw-500 tx-dark m0">
-                            Vamos conversar com consultores experientes.
+                            Vamos conversar com consultores experientes
                           </h2>
                         </div>
                         <p className="fs-20 tx-dark pt-20 m0">

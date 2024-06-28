@@ -27,7 +27,7 @@ const GridWithSidebar = () => {
                     Blog
                   </div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Confira novidades &amp; atualizações.
+                    Confira novidades &amp; atualizações
                   </h2>
                 </div>
               </div>

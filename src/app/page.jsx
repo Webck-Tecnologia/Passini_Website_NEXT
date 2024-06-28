@@ -42,7 +42,7 @@ export default function Page() {
                 </div>
                 <div className="col-lg-5 ms-auto " data-aos="fade-left">
                   <p className="text-lg m0">
-                    Soluções personalizadas e serviços engenheirados para projetos completos.
+                    Soluções personalizadas e serviços engenheirados para projetos completos
                   </p>
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function Page() {
                         />
                         <div className="title-style-one">
                           <h2 className="main-title fw-500 tx-dark m0">
-                            Vamos conversar com consultores experientes.
+                            Vamos conversar com consultores experientes
                           </h2>
                         </div>
                         <p className="fs-20 tx-dark pt-20 m0">

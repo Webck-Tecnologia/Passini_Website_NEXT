@@ -36,7 +36,7 @@ export default function Page() {
           <div className="row">
             <div className="col-xl-8 col-lg-9 ms-auto">
               <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Nossa história &amp; objetivos.</h6>
+                <h6 className="mb-30">Nossa história &amp; objetivos</h6>
                 <p className="text-lg tx-dark">
                 A Passini Equipamentos, fundada em janeiro de 1970 pelo engenheiro Waldemar Henrique Passini, é uma empresa com quase 50 anos de experiência na prestação de serviços engenheirados para a construção civil, indústrias e siderúrgicas. Ao longo dos anos, adquirimos um vasto know-how por meio de soluções técnicas eficientes e baseadas em conhecimento profundo.
 

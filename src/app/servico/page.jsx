@@ -32,7 +32,7 @@ export default function Page() {
                     </div>
                     <div className="col-lg-5 ms-auto " data-aos="fade-left">
                     <p className="text-lg m0">
-                        Soluções personalizadas e serviços engenheirados para projetos completos.
+                        Soluções personalizadas e serviços engenheirados para projetos completos
                     </p>
                     </div>
                 </div>

@@ -34,7 +34,14 @@ const Category = ({ setActiveCategory }) => {
     <ul className="style-none">
       {categories.map((category, index) => (
         <li key={index} className={category.name === localActiveCategory ? 'ativo' : ''}>
-          <a href="#" onClick={() => filterByCategory(category.name)} className={category.name === localActiveCategory ? 'ativo' : ''}>
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              filterByCategory(category.name);
+            }}
+            className={category.name === localActiveCategory ? 'ativo' : ''}
+          >
             {category.name}
             <span className="float-end">{`(${category.count})`}</span>
           </a>
