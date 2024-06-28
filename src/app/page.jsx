@@ -110,20 +110,20 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className="shapes shape-text fw-500 fs-20 tx-dark text-center pdireita">
+              <div className="shapes shape-text fw-500 fs-20 tx-dark text-center m-5">
                 Preencha o <br />
                 formulário
               </div>
               <img
                 src="/images/shape/shape_90.svg"
                 alt="shape"
-                className="lazy-img shapes shape-one pbot"
+                className="lazy-img shapes shape-one m-5"
               />
               <img
                 src="/images/shape/shape_91.svg"
                 alt="shape"
                 layout="responsive" 
-                className="lazy-img shapes shape-two"
+                className="lazy-img shapes shape-two "
               />
             </div>
           </div>
