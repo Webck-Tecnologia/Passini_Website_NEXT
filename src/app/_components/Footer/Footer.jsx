@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
         <h5 className="footer-title text-white fw-500">Endereço</h5>
         <p className="text-white opacity-75 mb-35">
-        R Sao Marcos, 1725 - Distrito Industrial<br />
+        R. São Marcos, 1725 - Distrito Industrial<br />
         Araçariguama - SP, 18147-000
         </p>
         <ul className="d-flex social-icon style-none">

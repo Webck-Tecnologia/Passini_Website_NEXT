@@ -62,7 +62,7 @@ export default function Page() {
               <img
                 src="/images/shape/shape_90.svg"
                 alt="shape"
-                className="lazy-img shapes shape-one"
+                className="lazy-img shapes shape-one pbot"
               />
               <img
                 src="/images/shape/shape_91.svg"
