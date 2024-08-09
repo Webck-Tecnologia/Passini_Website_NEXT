@@ -26,27 +26,14 @@
   },
   {
     "id": 3,
-    "imageSrc": "/images/blog/3.png",
-    "date": "24 Junh, 2024",
-    "title": "Como Aumentar a Vida Útil dos Equipamentos de Construção",
-    "delay": "300",
-    "tag": "Equipamentos",
-    "categoria": "Vida Util",
-    "banner": false,
-    "autor": "Passini Equipamentos",
-    "conteudoPath": "3.md"
-  },
-  {
-    "id": 4,
-    "tag": "Passini",
-    "date": "25 Junh, 2024",
-    "title": "Projetos que Utilizaram Equipamentos da Passini",
-    "description": "Having a home based business is a wonderful asset to your...",
-    "imageSrc": "/images/blog/4.png",
+    "imageSrc": "/images/blog/image-5.png",
+    "date": "09/08/2024",
+    "title": "Case de Sucesso: Como o Equipamento da Passini Elevou a Produtividade e Reduziu Custos em Obra de Grande Porte",
+    "tag": "grua",
     "delay": "400",
-    "categoria": "Projeto",
+    "categoria": "Casos de Sucesso",
     "banner": false,
-    "autor": "Passini Equipamentos",
-    "conteudoPath": "4.md"
+    "autor": "Passini",
+    "conteudoPath": "article-5.md"
   }
 ]
