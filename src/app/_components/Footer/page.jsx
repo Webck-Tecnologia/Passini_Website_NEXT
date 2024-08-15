@@ -15,7 +15,7 @@ const Inferior = () => {
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                  Passini Equipamentos 22.567.365/0001-35
+                  Passini Equipamentos 16.596.541/0001-64
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
                   © {new Date().getFullYear()} - {new Date().getFullYear() + 1}{" "}
