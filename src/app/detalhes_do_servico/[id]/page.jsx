@@ -21,7 +21,7 @@ const services = [
       'Segurança: Projetada com foco na segurança, a Grua SL reduz os riscos de acidentes durante as operações, garantindo um ambiente de trabalho mais seguro.',
       'Flexibilidade: Adequada para diversos tipos de grua e projetos, desde construções residenciais até comerciais de médio porte. Ela pode ser utilizada em diferentes etapas da obra, como no poço do elevador, e é capaz de lidar com a elevação de cargas diversas.'
     ],
-    advantages: 'Vantagens Adicionais da Grua SL.',
+    advantages: 'Economia de Tempo e Energia: A Grua SL oferece uma montagem e desmontagem mais rápidas em comparação com gruas convencionais, além de reduzir custos com menor necessidade de equipamentos auxiliares e mão de obra especializada. Melhoria na Logística do Canteiro: Com sua capacidade de carga e facilidade de reposicionamento, a Grua SL melhora a logística no canteiro de obras, minimizando gargalos e atrasos na entrega de materiais. Compacta e Poderosa: Apesar de ocupar pouco espaço, essa grua oferece uma solução robusta e eficiente para diferentes necessidades do canteiro de obras, utilizando cabo de aço resistente e com capacidade de carga ajustada para diversas aplicações.',
     progressData: [
       {
         title: 'Taxa de Sucesso',
@@ -47,7 +47,7 @@ const services = [
       'Versatilidade: Adequados para diferentes alturas e tipos de construção, desde edifícios residenciais até comerciais.',
       'Durabilidade: Construção robusta e resistente, garantindo longa vida útil e desempenho consistente.'
     ],
-    advantages: 'Economia de Tempo e Energia: A Grua SL oferece uma montagem e desmontagem mais rápidas em comparação com gruas convencionais, além de reduzir custos com menor necessidade de equipamentos auxiliares e mão de obra especializada. Melhoria na Logística do Canteiro: Com sua capacidade de carga e facilidade de reposicionamento, a Grua SL melhora a logística no canteiro de obras, minimizando gargalos e atrasos na entrega de materiais. Compacta e Poderosa: Apesar de ocupar pouco espaço, essa grua oferece uma solução robusta e eficiente para diferentes necessidades do canteiro de obras, utilizando cabo de aço resistente e com capacidade de carga ajustada para diversas aplicações.',
+    advantages: '',
     progressData: [
       {
         title: 'Capacidade de Carga',
