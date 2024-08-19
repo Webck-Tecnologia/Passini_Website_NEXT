@@ -10,18 +10,18 @@ import Header3 from '@/app/_components/Header/Header';
 const services = [
   {
     id: 'grua-sl',
-    title: 'Grua SL',
-    description: 'As Gruas SL (Self-Erecting) da Passini são projetadas para oferecer eficiência e mobilidade, tornando-se a solução ideal para canteiros de obras que demandam rapidez e flexibilidade. Com um sistema de auto elevação que facilita a montagem e desmontagem, essas gruas são perfeitas para projetos de diversos tamanhos, otimizando processos e garantindo a segurança no local de trabalho.',
-    detalhada: 'As Gruas SL (Self-Erecting) da Passini são uma escolha inteligente para seu projeto de construção. Essas mini gruas são ideais para construção civil, especialmente em obras que demandam gruas automontantes. A Grua SL é uma solução eficiente e segura, perfeita para quem busca gruas pequenas e versáteis. Com facilidade de montagem e desmontagem, essa grua para construção civil economiza tempo e recursos, oferecendo mobilidade e eficiência no canteiro de obras.',
+    title: 'Grua SL: Eficiência e Mobilidade no Canteiro de Obras',    
+    description: 'As Gruas SL (Self-Erecting) da Passini são equipamentos desenvolvidos para otimizar a eficiência e a mobilidade no canteiro de obras. Essas gruas automontantes são indicadas para projetos que demandam rapidez e flexibilidade, com um sistema de autoelevação que facilita a montagem e desmontagem, ideal para obras de diferentes tamanhos e tipos.',
+    detalhada: 'As Gruas SL da Passini são conhecidas por sua engenharia avançada e design compacto, o que as torna ideais para canteiros de obras com espaço limitado. Essas gruas automontantes são equipadas com tecnologia de ponta, permitindo uma operação precisa e controlada, mesmo em ambientes desafiadores. Além disso, a Grua SL possui uma capacidade de carga impressionante, suportando diversos materiais de construção, desde blocos de concreto até grandes componentes estruturais. A versatilidade das Gruas SL se estende a sua compatibilidade com outros equipamentos de elevação, como elevadores de cargas e guindastes, proporcionando uma solução completa para a movimentação de materiais no canteiro de obras. Com três modelos disponíveis, essas gruas são projetadas para atender às necessidades específicas de diferentes tipos de projetos, garantindo eficiência e segurança em todas as etapas da construção.',
     image: '/images/Hero/vd3.gif',
     reasons: [
-      'Montagem Rápida: Sistema de auto elevação que permite montagem e desmontagem rápidas, economizando tempo e recursos.',
-      'Mobilidade: Fácil realocação dentro do canteiro de obras, adaptando-se rapidamente às necessidades do projeto.',
-      'Eficiência: Aumenta a produtividade ao minimizar o tempo de preparação e ajuste.',
-      'Segurança: Projetada para operações seguras, reduzindo riscos de acidentes no trabalho.',
-      'Flexibilidade: Adequada para diversos tipos de projetos, desde residenciais até comerciais de médio porte.'
+      'Montagem Rápida: Com um sistema de autoelevação, a Grua SL permite uma montagem e desmontagem rápidas, economizando tempo e recursos valiosos no projeto.',
+      'Mobilidade e Versatilidade: Esta grua é fácil de realocar no canteiro de obras, adaptando-se rapidamente às necessidades de cada fase do projeto. Sua capacidade de ajuste a espaços limitados e diferentes condições de obra a torna uma opção versátil.',
+      'Eficiência: A Grua SL aumenta a produtividade ao minimizar o tempo de preparação e ajuste, permitindo que outros equipamentos e processos sigam sem interrupções',
+      'Segurança: Projetada com foco na segurança, a Grua SL reduz os riscos de acidentes durante as operações, garantindo um ambiente de trabalho mais seguro.',
+      'Flexibilidade: Adequada para diversos tipos de grua e projetos, desde construções residenciais até comerciais de médio porte. Ela pode ser utilizada em diferentes etapas da obra, como no poço do elevador, e é capaz de lidar com a elevação de cargas diversas.'
     ],
-    advantages: 'Imagine a economia de tempo e energia que você terá com a Grua SL. Montagem e desmontagem mais rápidas comparadas às gruas convencionais, redução de custos com menor necessidade de equipamentos auxiliares e equipe especializada para instalação. Versatilidade ideal para diferentes etapas da construção, podendo ser reposicionada conforme necessário. Melhor logística no canteiro de obras, minimizando gargalos e atrasos na entrega de materiais. Capacidade de se ajustar a espaços limitados e diferentes condições de obra.',
+    advantages: 'Vantagens Adicionais da Grua SL.',
     progressData: [
       {
         title: 'Taxa de Sucesso',
@@ -47,7 +47,7 @@ const services = [
       'Versatilidade: Adequados para diferentes alturas e tipos de construção, desde edifícios residenciais até comerciais.',
       'Durabilidade: Construção robusta e resistente, garantindo longa vida útil e desempenho consistente.'
     ],
-    advantages: 'Redução de Tempo: Aumenta a eficiência ao permitir o transporte rápido de materiais e trabalhadores entre diferentes níveis. Melhoria da Produtividade: Facilita o fluxo de trabalho, minimizando atrasos e interrupções. Segurança no Trabalho: Projetado para proporcionar um ambiente de trabalho seguro, reduzindo riscos de acidentes. Custo-Benefício: Economia com mão de obra e tempo de construção, reduzindo os custos totais do projeto. Suporte Técnico: A Passini oferece manutenção e suporte especializado para garantir o funcionamento perfeito dos elevadores.',
+    advantages: 'Economia de Tempo e Energia: A Grua SL oferece uma montagem e desmontagem mais rápidas em comparação com gruas convencionais, além de reduzir custos com menor necessidade de equipamentos auxiliares e mão de obra especializada. Melhoria na Logística do Canteiro: Com sua capacidade de carga e facilidade de reposicionamento, a Grua SL melhora a logística no canteiro de obras, minimizando gargalos e atrasos na entrega de materiais. Compacta e Poderosa: Apesar de ocupar pouco espaço, essa grua oferece uma solução robusta e eficiente para diferentes necessidades do canteiro de obras, utilizando cabo de aço resistente e com capacidade de carga ajustada para diversas aplicações.',
     progressData: [
       {
         title: 'Capacidade de Carga',
