@@ -17,6 +17,8 @@ export default function RootLayout({ children }) {
 
   return (
     <div className="root-layout">
+      <link rel="preload" href="/fonts/your-main-font.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+      <link rel="preload" href="/images/icon/icon_114.svg" as="image" />
       {children}
     </div>
   );

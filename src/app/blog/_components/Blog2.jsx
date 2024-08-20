@@ -66,11 +66,12 @@ const Blog2 = ({ activeCategory }) => {
               <figure className="post-img m0">
                 <Link href={`/blog/${post.id}`} className="w-100 d-block">
                   <Image
-                    width={380}
-                    height={280}
+                    width={400}
+                    height={300}
                     src={post.imageSrc}
-                    alt="blog"
-                    className="lazy-img w-100 tran4s"
+                    alt={post.title}
+                    className="lazy-img blog-image"
+                    style={{ objectFit: 'cover', width: '100%', height: '300px' }}
                   />
                 </Link>
               </figure>

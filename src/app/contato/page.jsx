@@ -4,16 +4,26 @@ import { useEffect } from 'react';
 import RootLayout from "../RootLayout";
 import Inferior from "../_components/Footer/page";
 import Header3 from '../_components/Header/Header';
-import ContactForm2 from '../_components/ContactForm/ContactForm2';
-import BlockContact2 from '../_components/ContactForm/BlockContact2';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+import Script from 'next/script';
 
+const DynamicContactForm2 = dynamic(() => import('../_components/ContactForm/ContactForm2'), {
+  loading: () => <p>Carregando formulário...</p>,
+});
+const BlockContact2 = dynamic(() => import('../_components/ContactForm/BlockContact2'), {
+  loading: () => <p>Carregando bloco de contato...</p>,
+});
 
 export default function Page() {
   useEffect(() => {
-    // Carregar o script do Bootstrap apenas no lado do cliente
-    if (typeof window !== "undefined") {
-      require("bootstrap/dist/js/bootstrap");
-    }
+    const loadBootstrap = async () => {
+      if (typeof window !== "undefined") {
+        const bootstrap = await import("bootstrap/dist/js/bootstrap");
+        bootstrap.default.initialize();
+      }
+    };
+    loadBootstrap();
   }, []);
 
   return (
@@ -31,10 +41,13 @@ export default function Page() {
                   <div className="row align-items-center">
                     <div className="col-lg-6 ms-auto order-lg-last">
                       <div className="text-wrapper">
-                        <img
+                        <Image
                           src="/images/icon/icon_114.svg"
                           alt="icon"
-                          className="lazy-img mb-30"
+                          width={50}
+                          height={50}
+                          className="mb-30"
+                          loading="lazy"
                         />
                         <div className="title-style-one">
                           <h2 className="main-title fw-500 tx-dark m0">
@@ -49,7 +62,7 @@ export default function Page() {
                     </div>
                     <div className="col-xl-5 col-lg-6 order-lg-first">
                       <div className="form-style-two md-mb-40">
-                        <ContactForm2 />
+                        <DynamicContactForm2 />
                       </div>
                     </div>
                   </div>
@@ -59,22 +72,30 @@ export default function Page() {
                 Preencha o <br />
                 formulário
               </div>
-              <img
+              <Image
                 src="/images/shape/shape_90.svg"
                 alt="shape"
-                className="lazy-img shapes shape-one m-5"
+                width={100}
+                height={100}
+                className="shapes shape-one m-5"
+                fetchpriority="high"
               />
-              <img
+              <Image
                 src="/images/shape/shape_91.svg"
                 alt="shape"
-                layout="responsive" 
-                className="lazy-img shapes shape-two"
+                width={100}
+                height={100}
+                className="shapes shape-two"
               />
             </div>
           </div>
         </div>
         <Inferior />
       </RootLayout>
+      <Script
+        src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        strategy="lazyOnload"
+      />
     </div>
   );
 }
