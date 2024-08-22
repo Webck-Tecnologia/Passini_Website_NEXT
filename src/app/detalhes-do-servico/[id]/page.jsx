@@ -21,9 +21,9 @@ function generateJsonLd(service) {
     "provider": {
       "@type": "Organization",
       "name": "Passini Equipamentos",
-      "url": "https://passini.com.br"
+      "url": "https://passiniequipamentos.com.br"
     },
-    "image": `https://passini.com.br${service.image}`,
+    "image": `https://passiniequipamentos.com.br${service.image}`,
     "areaServed": "São Paulo",
     "serviceType": service.title,
     "offers": {

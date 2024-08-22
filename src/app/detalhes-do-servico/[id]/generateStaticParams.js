@@ -1,28 +1,43 @@
 const services = [
     {
       id: 'grua-sl',
-      title: 'Grua SL: Eficiência e Mobilidade no Canteiro de Obras',    
+      title: 'Grua SL: Algumas vantagens da grua SL ascensional em relação às gruas fixas telescopagens',    
       description: 'As Gruas SL da Passini são equipamentos desenvolvidos para otimizar a eficiência e a mobilidade no canteiro de obras. Essas gruas automontantes são indicadas para projetos que demandam rapidez e flexibilidade, com um sistema de autoelevação que facilita a montagem e desmontagem, ideal para obras de diferentes tamanhos e tipos.',
-      detalhada: 'As Gruas SL da Passini são conhecidas por sua engenharia avançada e design compacto, o que as torna ideais para canteiros de obras com espaço limitado. Essas gruas automontantes são equipadas com tecnologia de ponta, permitindo uma operação precisa e controlada, mesmo em ambientes desafiadores. Além disso, a Grua SL possui uma capacidade de carga impressionante, suportando diversos materiais de construção, desde blocos de concreto até grandes componentes estruturais. A versatilidade das Gruas SL se estende a sua compatibilidade com outros equipamentos de elevação, como elevadores de cargas e guindastes, proporcionando uma solução completa para a movimentação de materiais no canteiro de obras. Com três modelos disponíveis, essas gruas são projetadas para atender às necessidades específicas de diferentes tipos de projetos, garantindo eficiência e segurança em todas as etapas da construção.',
+      detalhada: 'A grua SL é uma grua do tipo ascensional, sendo uma opção versátil e eficiente para obras que necessitam de um equipamento de elevação de cargas, podendo ser montada em vão de laje ou dentro do poço do elevador. Comparativamente, as gruas fixas são mais pesadas e ocupam mais espaço, sendo necessária uma estrutura de fundação para sua instalação. Por outro lado, a grua SL ascensional é mais leve e pode ser facilmente desmontada ao final da obra.',
       image: '/images/Hero/vd3.gif',
       reasons: [
-        'Montagem Rápida: Com um sistema de autoelevação, a Grua SL permite uma montagem e desmontagem rápidas, economizando tempo e recursos valiosos no projeto.',
-        'Mobilidade e Versatilidade: Esta grua é fácil de realocar no canteiro de obras, adaptando-se rapidamente às necessidades de cada fase do projeto. Sua capacidade de ajuste a espaços limitados e diferentes condições de obra a torna uma opção versátil.',
-        'Eficiência: A Grua SL aumenta a produtividade ao minimizar o tempo de preparação e ajuste, permitindo que outros equipamentos e processos sigam sem interrupções',
-        'Segurança: Projetada com foco na segurança, a Grua SL reduz os riscos de acidentes durante as operações, garantindo um ambiente de trabalho mais seguro.',
-        'Flexibilidade: Adequada para diversos tipos de grua e projetos, desde construções residenciais até comerciais de médio porte. Ela pode ser utilizada em diferentes etapas da obra, como no poço do elevador, e é capaz de lidar com a elevação de cargas diversas.'
-      ],
-      advantages: 'Economia de Tempo e Energia: A Grua SL oferece uma montagem e desmontagem mais rápidas em comparação com gruas convencionais, além de reduzir custos com menor necessidade de equipamentos auxiliares e mão de obra especializada. Melhoria na Logística do Canteiro: Com sua capacidade de carga e facilidade de reposicionamento, a Grua SL melhora a logística no canteiro de obras, minimizando gargalos e atrasos na entrega de materiais. Compacta e Poderosa: Apesar de ocupar pouco espaço, essa grua oferece uma solução robusta e eficiente para diferentes necessidades do canteiro de obras, utilizando cabo de aço resistente e com capacidade de carga ajustada para diversas aplicações.',
+        'Maior versatilidade: a grua ascensional pode ser montada em diferentes locais e se adaptar a diferentes necessidades de obra, enquanto as gruas fixas são mais limitada em posicionamento dentro da obra. Sua geometria mecânica foi projetada de forma  a tornar especialmente útil em canteiros de obras pequenos.', 
+        'Menor impacto no espaço da obra: a grua ascensional ocupa menos espaço do que uma grua fixa telescopável, o que pode ser crucial em obras com áreas restritas.', 
+        'Facilidade de montagem e desmontagem: a grua ascensional é mais simples de instalar e desmontar, podendo ser realizada manualmente. Isso representa uma grande vantagem em comparação com as gruas fixas, que necessitam de um guindaste para executar sua desmontagem.', 
+        'Menor custo de manutenção: por ser mais compacta e ter menos componentes, a grua ascensional tende a ter um custo de manutenção menor do que uma grua fixa', 
+        'Maior agilidade: a grua ascensional pode ser movimentada com mais rapidez e facilidade, permitindo um trabalho mais ágil e eficiente na obra.',
+          ],
+      advantages: '',
       progressData: [
         {
-          title: 'Taxa de Sucesso',
-          description: 'Somos conhecidos pela nossa alta taxa de sucesso.',
-          value: 86,
+          title: 'Versatilidade',
+          description: '',
+          value: 96,
         },
         {
-          title: 'Taxa de Economia',
-          description: 'Com a nossa Grua SL, você tem maiores economias na sua obra!',
-          value: 10,
+          title: 'Impacto no espaço da obra',
+          description: '',
+          value: 27,
+        },
+        {
+          title: 'Facilidade de montagem e desmontagem',
+          description: '',
+          value: 97,
+        },
+        {
+          title: 'Custo de manutenção',
+          description: '',
+          value: 22,
+        },
+        {
+          title: 'Agilidade',
+          description: '',
+          value: 98,
         },
       ],
     },
