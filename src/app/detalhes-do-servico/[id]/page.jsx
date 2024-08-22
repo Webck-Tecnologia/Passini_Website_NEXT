@@ -133,38 +133,10 @@ export default function ServiceDetails({ params }) {
               <div className="service-sidebar pe-xxl-5 md-mt-60">
               <div className="service-sidebar pe-xxl-5 md-mt-60">
               <div className="service-category mb-40">
-                <h4 className="tx-dark mb-15">Palavras Chaves</h4>
+                <h4 className="tx-dark mb-15">Categoria</h4>
                 <ul className="style-none keyword-list">
-                  <li className="current-page"><a href="#">grua</a></li>
-                  <li><a href="#">mini grua</a></li>
-                  <li><a href="#">grua construção civil</a></li>
-                  <li><a href="#">gruas automontantes</a></li>
-                  <li><a href="#">minigrua</a></li>
-                  <li><a href="#">gruas pequenas</a></li>
-                  <li><a href="#">locabens grua</a></li>
-                  <li><a href="#">grumont gruas</a></li>
-                  <li><a href="#">grua para construção civil</a></li>
-                  <li><a href="#">grua construção</a></li>
-                  <li><a href="#">mini grua preço</a></li>
-                  <li><a href="#">grua guindaste</a></li>
-                  <li><a href="#">grua de obra</a></li>
-                  <li><a href="#">grua pequena</a></li>
-                  <li><a href="#">grua são paulo</a></li>
-                  <li><a href="#">mini grua construção civil</a></li>
-                  <li><a href="#">preço grua</a></li>
-                  <li><a href="#">aluguel e fabricação de grua</a></li>
-                  <li><a href="#">preço mini grua</a></li>
-                  <li><a href="#">guindaste para construção civil</a></li>
-                  <li><a href="#">grua obra civil</a></li>
-                  <li><a href="#">grua movel pequena</a></li>
-                  <li><a href="#">grua predio</a></li>
-                  <li><a href="#">mini grua preço</a></li>
-                  <li><a href="#">grua na construção civil</a></li>
-                  <li><a href="#">grua torre fixa</a></li>
-                  <li><a href="#">grua automontante potain</a></li>
-                  <li><a href="#">potain gruas</a></li>
-                  <li><a href="#">siti gruas</a></li>
-                  <li><a href="#">grua sobre trilhos</a></li>
+                  <li className="current-page"><a href="#">Grua SL</a></li>
+                  <li><a href="#">Grua Ascensional</a></li>
                 </ul>
               </div>
             </div>

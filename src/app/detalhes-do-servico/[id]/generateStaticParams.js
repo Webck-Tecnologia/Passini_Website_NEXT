@@ -2,8 +2,8 @@ const services = [
     {
       id: 'grua-sl',
       title: 'Grua SL: Algumas vantagens da grua SL ascensional em relação às gruas fixas telescopagens',    
-      description: 'As Gruas SL da Passini são equipamentos desenvolvidos para otimizar a eficiência e a mobilidade no canteiro de obras. Essas gruas automontantes são indicadas para projetos que demandam rapidez e flexibilidade, com um sistema de autoelevação que facilita a montagem e desmontagem, ideal para obras de diferentes tamanhos e tipos.',
-      detalhada: 'A grua SL é uma grua do tipo ascensional, sendo uma opção versátil e eficiente para obras que necessitam de um equipamento de elevação de cargas, podendo ser montada em vão de laje ou dentro do poço do elevador. Comparativamente, as gruas fixas são mais pesadas e ocupam mais espaço, sendo necessária uma estrutura de fundação para sua instalação. Por outro lado, a grua SL ascensional é mais leve e pode ser facilmente desmontada ao final da obra.',
+      description: 'A grua SL é uma grua do tipo ascensional, sendo uma opção versátil e eficiente para obras que necessitam de um equipamento de elevação de cargas, podendo ser montada em vão de laje ou dentro do poço do elevador. Comparativamente, as gruas fixas são mais pesadas e ocupam mais espaço, sendo necessária uma estrutura de fundação para sua instalação. Por outro lado, a grua SL ascensional é mais leve e pode ser facilmente desmontada ao final da obra.',
+      detalhada: '',
       image: '/images/Hero/vd3.gif',
       reasons: [
         'Maior versatilidade: a grua ascensional pode ser montada em diferentes locais e se adaptar a diferentes necessidades de obra, enquanto as gruas fixas são mais limitada em posicionamento dentro da obra. Sua geometria mecânica foi projetada de forma  a tornar especialmente útil em canteiros de obras pequenos.', 
