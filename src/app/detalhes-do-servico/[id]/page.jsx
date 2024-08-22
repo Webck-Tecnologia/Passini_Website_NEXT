@@ -83,11 +83,6 @@ export default function ServiceDetails({ params }) {
           </div>
         </div>
         <img
-          src="/images/shape/shape_172.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
-        <img
           src="/images/shape/shape_175.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
@@ -112,19 +107,13 @@ export default function ServiceDetails({ params }) {
                   <>
                     <div className="mt-50 lg-mt-30">
                       <div className="row gx-xxl-5">
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                           <h4 className="sub-title mb-20 tx-dark">Por que escolher a {service.title}</h4>
                           <ul className="style-none list-item md-mb-40">
                             {service.reasons.map((reason, index) => (
                               <li key={index}>{reason}</li>
                             ))}
                           </ul>
-                        </div>
-                        <div className="col-lg-6">
-                          <h4 className="sub-title mb-20 tx-dark">Vantagens</h4>
-                          <p className="pe-xxl-5">
-                            {service.advantages}
-                          </p>
                         </div>
                       </div>
                     </div>
