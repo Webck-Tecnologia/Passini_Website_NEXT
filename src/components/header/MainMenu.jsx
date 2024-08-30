@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { Link as RouterLink, useLocation } from "react-router-dom";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 
 const MainMenu = () => {
   const [activeSection, setActiveSection] = useState("");
   const [recentPosts, setRecentPosts] = useState([]);
   const location = useLocation();
+  const navigate = useNavigate();
   const isBlogPage = location.pathname.startsWith('/blog');
+  const isServiceDetailsPage = location.pathname.includes('/detalhes-do-servico/');
 
   const sections = [
     { id: "home", name: "Home" },
@@ -34,7 +36,7 @@ const MainMenu = () => {
     fetchRecentPosts();
 
     const handleScroll = () => {
-      if (!isBlogPage) {
+      if (!isBlogPage && !isServiceDetailsPage) {
         const scrollPosition = window.scrollY;
         const windowHeight = window.innerHeight;
 
@@ -54,13 +56,21 @@ const MainMenu = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isBlogPage]);
+  }, [isBlogPage, isServiceDetailsPage]);
 
   return (
     <nav className="navbar navbar-expand-lg order-lg-2">
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          {isBlogPage ? (
+          {isServiceDetailsPage ? (
+            <>
+              <li className="nav-item">
+                <RouterLink to="/" className="nav-link">
+                  Home
+                </RouterLink>
+              </li>
+            </>
+          ) : isBlogPage ? (
             <li className="nav-item">
               <RouterLink to="/" className="nav-link">
                 Voltar
@@ -83,16 +93,16 @@ const MainMenu = () => {
             ))
           )}
           <li className="nav-item dropdown">
-            <a
+            <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              to="#"
               id="navbarDropdown"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Blog
-            </a>
+            </Link>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               {recentPosts.map((post) => (
                 <li key={post.id}>

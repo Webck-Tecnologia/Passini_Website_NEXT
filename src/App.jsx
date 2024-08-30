@@ -10,6 +10,8 @@ import RealEstate from "./pages/home/real-estate";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehavier";
 import Blog from "./pages/blog/[id]/page";
 import GridWithSidebar from "./pages/blog/page";
+import NotFound from "./pages/404";
+import ServiceDetails from "./pages/detalhes-do-servico/[id]/page";
 
 function App() {
   useEffect(() => {
@@ -24,6 +26,8 @@ function App() {
         <Route path="/" element={<RealEstate />} />
         <Route path="/blog/:slug" element={<Blog />} />
         <Route path="/blog" element={<GridWithSidebar />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="/detalhes-do-servico/:id" element={<ServiceDetails />} />
       </Routes>
       <ScrollTopBehaviour />
       <ScrollToTop />

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Seo from "../components/common/Seo";
-import DefaulHeader from "../components/header/DefaulHeader";
+import Header3 from "@/components/header/Header3";
 
 const NotFound = () => {
   return (
@@ -12,7 +12,7 @@ const NotFound = () => {
       Theme Default Menu
       ============================================== 	
       --> */}
-      <DefaulHeader />
+      <Header3 />
 
       {/* 
 			=============================================

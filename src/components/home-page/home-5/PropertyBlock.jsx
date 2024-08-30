@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const properties = [
   {
     imgSrc: "/images/media/img_76.jpg",
@@ -28,18 +30,18 @@ const Property = () => {
             <img src={property.imgSrc} alt="media" className="lazy-img w-100" />
             <div className="text-meta">
               <h4>
-                <a href="#" className="property-name">
+                <Link to="#" className="property-name">
                   {property.name}
-                </a>
+                </Link>
               </h4>
               <p className="fs-18">{property.address}</p>
               <div className="d-flex align-items-center justify-content-between">
                 <strong className="price fw-500 tx-dark">
                   {property.price}
                 </strong>
-                <a href="#" className="read-more tran3s">
+                <Link to="#" className="read-more tran3s">
                   <i className="bi bi-arrow-up-right" />
-                </a>
+                </Link>
               </div>
             </div>
             {/* /.text-meta */}

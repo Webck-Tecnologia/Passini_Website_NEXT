@@ -8,9 +8,15 @@ const Header3 = () => {
   const [navbarState, setNavbarState] = useState("hidden");
   const location = useLocation();
   const isBlogPage = location.pathname.startsWith('/blog');
+  const isServiceDetailsPage = location.pathname.includes('/detalhes-do-servico/');
+
+  useEffect(() => {
+    console.log("Current path:", location.pathname);
+    console.log("Is service details page:", isServiceDetailsPage);
+  }, [location, isServiceDetailsPage]);
 
   const handleScroll = () => {
-    if (isBlogPage) {
+    if (isBlogPage || isServiceDetailsPage) {
       setNavbarState("visible");
     } else {
       if (window.scrollY === 0) {
@@ -29,14 +35,14 @@ const Header3 = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [navbarState, isBlogPage]);
+  }, [navbarState, isBlogPage, isServiceDetailsPage]);
+
+  const headerClassName = `theme-main-menu sticky-menu theme-menu-nine ${
+    navbar ? "fixed" : ""
+  } navbar-${navbarState} ${isServiceDetailsPage ? "service-details-header" : ""}`;
 
   return (
-    <header
-      className={`theme-main-menu sticky-menu theme-menu-nine ${
-        navbar ? "fixed" : ""
-      } navbar-${navbarState}`}
-    >
+    <header className={headerClassName}>
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
@@ -45,7 +51,7 @@ const Header3 = () => {
             </Link>
           </div>
           <div className="menu-containerp5">
-            <MainMenu />
+            <MainMenu isServiceDetailsPage={isServiceDetailsPage} />
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const coursesData = [
   {
     id: 1,
@@ -38,8 +40,8 @@ const CourseFeatured = () => {
     <>
       {coursesData.map((course) => (
         <div className="col-sm-6 d-flex flex-column space-fix" key={course.id}>
-          <a
-            href="#"
+          <Link
+            to="#"
             className="card-style-nineteen position-relative d-flex flex-column tran3s mb-40 xs-mb-20"
           >
             <span className="tag fw-500 text-white text-uppercase">
@@ -53,7 +55,7 @@ const CourseFeatured = () => {
             <span className="tag2 fw-bold tx-dark text-uppercase mt-auto">
               {course.tag2}
             </span>
-          </a>
+          </Link>
           {/* /.card-style-nineteen */}
         </div>
       ))}

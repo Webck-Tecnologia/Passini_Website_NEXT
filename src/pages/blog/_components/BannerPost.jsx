@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const BannerPost = () => {
   const [bannerPost, setBannerPost] = useState(null);
@@ -33,9 +34,9 @@ const BannerPost = () => {
       <div className="banner-content">
         <h4>{bannerPost.title}</h4>
         <p>{bannerPost.date}</p>
-        <a href={`/blog/${bannerPost.id}`} className="btn-twentyOne fw-500 tran3s">
+        <Link to={`/blog/${bannerPost.id}`} className="btn-twentyOne fw-500 tran3s">
           Ver mais
-        </a>
+        </Link>
       </div>
     </div>
   );

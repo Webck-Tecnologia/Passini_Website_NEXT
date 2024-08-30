@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SocialShare = () => {
   const socialMedia = [
     {
@@ -24,9 +26,9 @@ const SocialShare = () => {
           key={platform.name}
           className="rounded-circle d-flex align-items-center justify-content-center"
         >
-          <a href={platform.url}>
+          <Link to={platform.url}>
             <i className={platform.icon}></i>
-          </a>
+          </Link>
         </li>
       ))}
     </ul>

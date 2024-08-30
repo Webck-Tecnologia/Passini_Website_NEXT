@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FancyBanner = () => {
   return (
     <div className="wrapper position-relative mt-150">
@@ -17,14 +19,14 @@ const FancyBanner = () => {
             >
               Try it risk free — we don’t charge cancellation fees.
             </p>
-            <a
-              href="#"
+            <Link
+              to="#"
               className="btn-two fs-18 fw-500"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               Purchase Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import RecentPost from '../_components/RecentPost';
@@ -58,9 +58,9 @@ const Blog = () => {
     <div className="row">
       <div className="col-xxl-8 col-lg-9" data-aos="fade-right">
         <p className="blog-pubish-date">
-          <a href="#" className="fw-500">
+          <Link to="#" className="fw-500">
             {blog.autor}
-          </a> - {blog.categoria} . {blog.date} .
+          </Link> - {blog.categoria} . {blog.date} .
         </p>
         <h2 className="blog-heading-one tx-dark">{blog.title}</h2>
       </div>

@@ -33,9 +33,9 @@ const Blog = () => {
               <div className="blog-footer d-flex align-items-center justify-content-between mt-auto">
                 <div className="blog-date tran3s fw-500 tx-dark">
                   Featured -
-                  <a href="#" className="fw-normal tran3s">
+                  <Link to="#" className="fw-normal tran3s">
                     {item.date}
-                  </a>
+                  </Link>
                 </div>
                 <Link to={`/blog/${item.id}`} className="read-more tran3s">
                   <i className="bi bi-arrow-up-right" />

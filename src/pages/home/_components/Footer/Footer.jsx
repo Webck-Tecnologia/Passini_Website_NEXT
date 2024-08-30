@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const links = [
@@ -53,7 +54,7 @@ const Footer = () => {
           <ul className="footer-nav-link style-none">
             {link.items.map((item, i) => (
               <li key={i}>
-                <a href={item.href}>{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -69,9 +70,9 @@ const Footer = () => {
         <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (
             <li key={index}>
-              <a href={icon.link} target="_blank" rel="noopener noreferrer">
+              <Link to={icon.link} target="_blank" rel="noopener noreferrer">
                 <i className={icon.iconClass} />
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

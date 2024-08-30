@@ -1,6 +1,7 @@
 import Faq from './Faq'
 import CourseFeatured from './CourseFeatured';
 import Blog from './Blog1';
+import { Link } from 'react-router-dom';
 
 
 const Comentarios = () => {
@@ -18,9 +19,9 @@ const Comentarios = () => {
               {/* End title */}
               <Faq />
               {/* /.accordion-style-six */}
-              <a href="#" className="btn-one fw-500 mt-50 md-mt-40">
+              <Link to="/blog" className="btn-one fw-500 mt-50 md-mt-40">
                 Ver mais
-              </a>
+              </Link>
             </div>
             {/* End col-xl-5 */}
 

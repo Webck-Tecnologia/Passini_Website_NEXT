@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FancySection = () => {
   return (
     <div className="fancy-feature-fortyNine pt-110 pb-90 xl-pt-70 lg-pb-60 zn2 position-relative">
@@ -27,7 +29,7 @@ const FancySection = () => {
         alt="Forma decorativa representando a inovação da Passini Equipamentos"
         className="lazy-img shapes shape-one"
       />
-      <a href="#" className="more-btn tran3s" data-aos="fade-left">
+      <Link to="#" className="more-btn tran3s" data-aos="fade-left">
         <img
           src="/images/shape/shape_167.svg"
           alt="shape"
@@ -38,7 +40,7 @@ const FancySection = () => {
           alt="shape"
           className="lazy-img arrow"
         />
-      </a>
+      </Link>
       <div className="clip-text-two fw-bold wow fadeInUp">Passini</div>
     </div>
   );

@@ -42,7 +42,7 @@ const Property = () => {
             <div className="hover-overlay d-flex flex-column align-items-center position-absolute tran3s">
               <h3 className="tx-dstq">{property.title}</h3>
               <Link
-                href={`/detalhes_do_servico/${property.id}`}
+                to={`/detalhes-do-servico/${property.id}`}
                 className="btn-four fw-500 mt-auto"
               >
                 Ver Mais

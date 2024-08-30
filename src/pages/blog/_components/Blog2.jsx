@@ -61,7 +61,7 @@ const Blog2 = ({ activeCategory }) => {
           >
             <article className="blog-meta-three mb-60 lg-mb-40">
               <figure className="post-img m0">
-                <a href={`/blog/${post.id}`} className="w-100 d-block">
+                <Link to={`/blog/${post.id}`} className="w-100 d-block">
                   <img
                     width={380}
                     height={280}
@@ -69,24 +69,24 @@ const Blog2 = ({ activeCategory }) => {
                     alt="blog"
                     className="lazy-img w-100 tran4s"
                   />
-                </a>
+                </Link>
               </figure>
               <div className="post-data mt-30">
                 <div className="post-date opacity-75 text-uppercase">
                   {post.date}
                 </div>
-                <a href={`/blog/${post.id}`} className="mt-10 mb-15">
+                <Link to={`/blog/${post.id}`} className="mt-10 mb-15">
                   <h4 className="tran3s blog-title fw-normal tx-dark">
                     {post.title}
                   </h4>
-                </a>
+                </Link>
                 <div>
-                  <a
-                    href={`/blog/${post.id}`}
+                  <Link
+                    to={`/blog/${post.id}`}
                     className="read-btn-two fw-500 tran3s"
                   >
                     Ler Mais
-                  </a>
+                  </Link>
                 </div>
               </div>
             </article>

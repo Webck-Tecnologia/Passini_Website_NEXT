@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Blog = () => {
@@ -39,27 +40,27 @@ const Blog = () => {
             <div className="post-data position-relative d-flex flex-column h-100">
               <div className="blog-header">
                 <div>
-                  <a
-                    href={`/blog/${item.id}`}
+                  <Link
+                    to={`/blog/${item.id}`}
                     className="tag text-uppercase fw-500 tran3s mb-20"
                   >
                     {item.tag}
-                  </a>
+                  </Link>
                 </div>
-                <a href={`/blog/${item.id}`}>
+                <Link to={`/blog/${item.id}`}>
                   <h4 className="tran3s blog-title">{item.title}</h4>
-                </a>
+                </Link>
               </div>
               {/* /.blog-header */}
               <div className="blog-footer d-flex align-items-center justify-content-between mt-auto">
                 <div className="blog-date tran3s fw-500 tx-dark">
-                  <a href="#" className="fw-normal tran3s">
+                  <Link to="#" className="fw-normal tran3s">
                     {item.date}
-                  </a>
+                  </Link>
                 </div>
-                <a href={`/blog/${item.id}`} className="read-more tran3s">
+                <Link to={`/blog/${item.id}`} className="read-more tran3s">
                   <i className="bi bi-arrow-up-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </article>

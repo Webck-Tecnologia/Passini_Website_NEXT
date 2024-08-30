@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Category = ({ setActiveCategory }) => {
   const [categories, setCategories] = useState([]);
@@ -51,8 +52,8 @@ const Category = ({ setActiveCategory }) => {
     <ul className="style-none">
       {categories.map((category, index) => (
         <li key={index} className={category.name === localActiveCategory ? 'ativo' : ''}>
-          <a
-            href="#"
+          <Link
+            to="#"
             onClick={(e) => {
               e.preventDefault();
               filterByCategory(category.name);
@@ -61,7 +62,7 @@ const Category = ({ setActiveCategory }) => {
           >
             {category.name}
             <span className="float-end">{`(${category.count})`}</span>
-          </a>
+          </Link>
         </li>
       ))}
     </ul>
