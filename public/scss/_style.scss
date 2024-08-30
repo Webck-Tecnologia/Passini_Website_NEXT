@@ -230,12 +230,6 @@ p {
 .svg path {
   transition: all 0.3s ease-in-out;
 }
-
-.blog-image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
 .tran33s{
   background-color: #104BA0 !important;
   color: #ffffff;
@@ -270,6 +264,9 @@ p {
 }
 .fs-18 {
   font-size: 18px;
+}
+.titulo{
+  font-size: 40px;
 }
 .fs-20 {
   font-size: 20px;
@@ -421,7 +418,7 @@ p {
   bottom: 10px;
   width: 98%;
   height: 12px;
-  background: rgba(255, 139, 37, 0.4);
+  background: #D9042B;
   z-index: -1;
 }
 .title-style-two .sc-title {
@@ -491,6 +488,15 @@ p {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding-bottom: 22px;
+}
+
+.branco{
+  color: #bebebe !important;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
 }
 .title-style-five .sc-title {
   font-size: 16px;
@@ -2034,7 +2040,7 @@ body .btn-twentySix:hover:after {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feedback Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .feedback-section-one .bg-wrapper {
-  background-color: #e8faf3;
+  background-color: #fae8e8;
   z-index: 1;
 }
 .feedback-section-one .bg-wrapper:before {
@@ -8002,6 +8008,34 @@ body .btn-twentySix:hover:after {
   margin-top: 12px;
   padding-left: 20px;
 }
+.texto-com-contorno {
+  color: white;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+/* Para textos maiores, como títulos, você pode querer um contorno mais grosso */
+.titulo.texto-com-contorno {
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.imagem-responsiva {
+  display: block; /* Garante que a imagem seja exibida por padrão */
+}
+
+@media (max-width: 550px) {
+  .imagem-responsiva {
+    display: none; /* Oculta a imagem quando a largura da tela for 550px ou menos */
+  }
+}
+
 .card-style-nineteen ul li:before {
   content: url(../images/icon/icon_136.svg);
   position: absolute;
@@ -8234,7 +8268,7 @@ body .btn-twentySix:hover:after {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .hero-banner-thirteen {
-  background: url(../images/Hero/9.png) no-repeat left bottom;
+  background: url(/images/media/gruaz.webp) no-repeat left bottom;
   background-size: cover;
 }
 .hero-banner-thirteen .hero-heading {
@@ -10023,9 +10057,13 @@ body .btn-twentySix:hover:after {
   position: relative;
   z-index: 1;
 }
+
+.cinzaclaro{
+  color: #ededed; 
+}
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fiftyFour .bg-wrapper {
-  background: #e8faf3;
+  background: #191919;
 }
 .fancy-feature-fiftyFour .shape-one {
   top: 15%;

@@ -1,4 +1,32 @@
 export const menuItems = [
+  {
+    title: "Business",
+    items: [
+      { title: "Insurance", link: "/" },
+      { title: "Web Hosting", link: "/home/web-hosting" },
+      { title: "Education", link: "/home/education" },
+      { title: "N.P. Charity", link: "/home/charity" },
+      { title: "Real Estate", link: "/home/real-estate" },
+    ],
+  },
+  {
+    title: "Landing",
+    items: [
+      { title: "Sass Product", link: "/home/sass-product" },
+      { title: "App Landing", link: "/home/app-landing" },
+      { title: "Crypto", link: "/home/crypto" },
+      { title: "Personal Portfolio", link: "/home/personal-portfolio" },
+    ],
+  },
+  {
+    title: "Agency",
+    items: [
+      { title: "Agency Modern", link: "/home/agency-modern" },
+      { title: "SEO & Digital Agency", link: "/home/seo-agency" },
+      { title: "Design Agency", link: "/home/design-agency" },
+      { title: "Lead Generation", link: "/home/lead-generation" },
+    ],
+  },
 ];
 
 export const pagesItems = [
@@ -84,6 +112,19 @@ export const navItems = [
   {
     label: "Home",
     submenuItems: [
+      { title: "Insurance", link: "/" },
+      { title: "Web Hosting", link: "/home/web-hosting" },
+      { title: "Education", link: "/home/education" },
+      { title: "N.P. Charity", link: "/home/charity" },
+      { title: "Real Estate", link: "/home/real-estate" },
+      { title: "Sass Product", link: "/home/sass-product" },
+      { title: "App Landing", link: "/home/app-landing" },
+      { title: "Crypto", link: "/home/crypto" },
+      { title: "Personal Portfolio", link: "/home/personal-portfolio" },
+      { title: "Agency Modern", link: "/home/agency-modern" },
+      { title: "SEO & Digital Agency", link: "/home/seo" },
+      { title: "Design Agency", link: "/home/design-agency" },
+      { title: "Lead Generation", link: "/home/lead-generation" },
     ],
   },
   { title: "About", link: "/pages-menu/about-us-v1" },

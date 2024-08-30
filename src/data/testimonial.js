@@ -1,4 +1,4 @@
-module.exports = [
+const testimonial = [
   {
     id: 1,
     title: "Very Solid!!",
@@ -36,3 +36,4 @@ module.exports = [
     image: "/images/media/img_55.jpg",
   },
 ];
+export default testimonial;

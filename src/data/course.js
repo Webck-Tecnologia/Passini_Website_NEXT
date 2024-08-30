@@ -1,4 +1,4 @@
-module.exports = [
+const course = [
   {
     id: 1,
     imgSrc: "/images/media/img_63.jpg",
@@ -72,3 +72,4 @@ module.exports = [
     tag: "marketing",
   },
 ];
+export default course;

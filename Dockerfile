@@ -1,23 +1,36 @@
-# Use uma imagem base oficial do Node.js 18
-FROM node:18-alpine
-
-# Defina o diretório de trabalho no contêiner
+# Estágio 1: Configuração do json-server
+FROM node:14 as json-server
 WORKDIR /app
+COPY db.json .
+RUN npm install -g json-server
 
-# Copie o package.json e o package-lock.json para o diretório de trabalho
-COPY package.json package-lock.json ./
-
-# Instale as dependências
+# Estágio 2: Configuração da aplicação React
+FROM node:14 as react-app
+WORKDIR /app
+COPY package*.json ./
 RUN npm install
-
-# Copie o restante dos arquivos da aplicação para o diretório de trabalho
 COPY . .
-
-# Construa a aplicação Next.js
 RUN npm run build
 
-# Exponha a porta que a aplicação irá rodar
-EXPOSE 3000
+# Estágio final: Configuração do ambiente de produção
+FROM node:14-alpine
+WORKDIR /app
 
-# Comando para rodar a aplicação
-CMD ["npm", "start"]
+# Copiar json-server e db.json
+COPY --from=json-server /app/db.json .
+COPY --from=json-server /usr/local/lib/node_modules/json-server /usr/local/lib/node_modules/json-server
+RUN ln -s /usr/local/lib/node_modules/json-server/lib/cli/bin.js /usr/local/bin/json-server
+
+# Copiar build da aplicação React
+COPY --from=react-app /app/build ./build
+
+# Instalar serve para servir a aplicação React
+RUN npm install -g serve
+
+# Copiar script de inicialização
+COPY start.sh .
+RUN chmod +x start.sh
+
+EXPOSE 3000 3001
+
+CMD ["./start.sh"]
