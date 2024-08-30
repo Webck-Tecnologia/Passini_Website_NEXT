@@ -1,31 +1,23 @@
-# Estágio 1: Configuração do json-server
-FROM node:14 as json-server
-WORKDIR /app
-COPY db.json .
-RUN npm install -g json-server
-
-# Estágio 2: Configuração da aplicação React
-FROM node:14 as react-app
+# Estágio 1: Build da aplicação React
+FROM node:20.15.0 as build
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 COPY . .
 RUN npm run build
 
-# Estágio final: Configuração do ambiente de produção
-FROM node:14-alpine
+# Estágio 2: Configuração do ambiente de produção
+FROM node:20.15.0-alpine
 WORKDIR /app
 
-# Copiar json-server e db.json
-COPY --from=json-server /app/db.json .
-COPY --from=json-server /usr/local/lib/node_modules/json-server /usr/local/lib/node_modules/json-server
-RUN ln -s /usr/local/lib/node_modules/json-server/lib/cli/bin.js /usr/local/bin/json-server
+# Instalar dependências necessárias
+RUN npm install -g json-server serve
 
 # Copiar build da aplicação React
-COPY --from=react-app /app/build ./build
+COPY --from=build /app/dist ./dist
 
-# Instalar serve para servir a aplicação React
-RUN npm install -g serve
+# Copiar db.json para o json-server
+COPY db.json .
 
 # Copiar script de inicialização
 COPY start.sh .
