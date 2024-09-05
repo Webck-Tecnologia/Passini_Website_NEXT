@@ -1,7 +1,15 @@
+import { useState } from 'react';
 import Block from "@/components/about/Block";
+import PdfModal from "../../../PdfModal"; // Vamos criar este componente
 import About from "@/components/home-page/home-5/about";
 
+
 const Aboutmain = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <>
       {/* 
@@ -42,6 +50,12 @@ const Aboutmain = () => {
                   todo o segmento de atuação da
                   companhia.
                 </p>
+                <button 
+                  className="btn btn-primary mt-4"
+                  onClick={openModal}
+                >
+                  Saiba mais
+                </button>
                 <img
                   src="/images/icon/grua.webp"
                   alt="icon"
@@ -70,6 +84,7 @@ const Aboutmain = () => {
         </div>{" "}
         {/* /.bg-wrapper */}
       </div>
+      <PdfModal isOpen={isModalOpen} onClose={closeModal} />
     </>
   );
 };
