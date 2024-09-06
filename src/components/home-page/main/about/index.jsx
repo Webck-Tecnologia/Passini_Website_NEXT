@@ -41,7 +41,7 @@ const Aboutmain = () => {
                 <div className="title-style-one mt-30">
                   <div className="sc-title text-uppercase branco">POR QUE PASSINI?</div>
                   <h2 className="main-title fw-bold text-white titulo texto-com-contorno">
-                    Nossa <span className="text-white">missão</span>.
+                    Nossa <span className="missao-container">missão</span>.
                   </h2>
                 </div>
                 <p className="text-lg mt-40 lg-mt-20 cinzaclaro texto-com-contorno">

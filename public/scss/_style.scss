@@ -21,6 +21,13 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+ .missao-container {
+  background-color: #D9042B;;
+  padding: 3px;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 10px;
+}
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -410,16 +417,7 @@ p {
   position: relative;
   z-index: 1;
 }
-.title-style-one .main-title span:before {
-  content: "";
-  position: absolute;
-  left: 4px;
-  bottom: 10px;
-  width: 98%;
-  height: 12px;
-  background: #D9042B;
-  z-index: -1;
-}
+
 .title-style-two .sc-title {
   font-size: 20px;
   padding-bottom: 5px;
@@ -10003,6 +10001,8 @@ body .btn-twentySix:hover:after {
   text-decoration: underline;
   color: var(--p-color);
 }
+
+
 /*^^^^^^^^^^^^^^^^^^^^^ Error Page ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .error-page-content {
   min-height: 100vh;

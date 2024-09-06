@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 
 // Estilos para o modal
@@ -25,6 +25,22 @@ const customStyles = {
 Modal.setAppElement('#root');
 
 const PdfModal = ({ isOpen, onClose }) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const openPdfInNewTab = () => {
+    window.open('/passini.pdf', '_blank');
+    onClose(); // Fecha o modal após abrir o PDF em uma nova aba
+  };
+
   return (
     <Modal
       isOpen={isOpen}
@@ -40,13 +56,25 @@ const PdfModal = ({ isOpen, onClose }) => {
         >
           Fechar
         </button>
-        <iframe
-          src="/passini.pdf#view=FitH"
-          width="100%"
-          height="100%"
-          style={{ border: 'none', flex: 1 }}
-          title="Passini PDF"
-        />
+        {isMobile ? (
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <p>Clique no botão abaixo para visualizar o PDF:</p>
+            <button 
+              onClick={openPdfInNewTab}
+              className="btn btn-primary"
+            >
+              Abrir PDF
+            </button>
+          </div>
+        ) : (
+          <iframe
+            src="/passini.pdf#view=FitH"
+            width="100%"
+            height="100%"
+            style={{ border: 'none', flex: 1 }}
+            title="Passini PDF"
+          />
+        )}
       </div>
     </Modal>
   );
