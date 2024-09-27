@@ -8,7 +8,7 @@ import Testimonial3 from "../../components/home-page/home-6/Testimonial";
 const Testimonials = () => {
   return (
     <>
-      <Seo pageTitle="Testimonials" />
+      <Seo pageTitle="Testemunhos - O que nossos clientes dizem" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -26,12 +26,8 @@ const Testimonials = () => {
           <div className="row">
             <div className="col-xl-7 col-md-6" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-20">
-                <div className="sc-title-two fst-italic position-relative">
-                  Testimonials
-                </div>
-                <h2 className="main-title fw-500 tx-dark">
-                  Client Feedback About us.
-                </h2>
+                <h1 className="main-title fw-500 tx-dark">Testemunhos de Clientes</h1>
+                <h2 className="sc-title-two fst-italic position-relative">Feedback dos Clientes</h2>
               </div>
             </div>
           </div>

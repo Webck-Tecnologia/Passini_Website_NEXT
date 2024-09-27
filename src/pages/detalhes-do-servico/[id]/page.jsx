@@ -66,8 +66,8 @@ export default function ServiceDetails() {
   return (
     <>
       <Seo
-        pageTitle={`${service.title} - Passini Equipamentos`}
-        description={`Detalhes sobre ${service.title} oferecido pela Passini Equipamentos.`}
+        pageTitle={`${service.title} - Detalhes do Serviço - Passini Equipamentos`}
+        description={`Descubra os detalhes sobre ${service.title}, um serviço de alta qualidade oferecido pela Passini Equipamentos. Saiba mais sobre suas características e benefícios.`}
         keywords={`${service.title}, equipamentos industriais, Passini, serviços`}
         ogImage={service.image}
       />

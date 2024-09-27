@@ -34,11 +34,9 @@ const GridWithSidebar = () => {
             <div className="row">
               <div className="col-lg-7" data-aos="fade-right">
                 <div className="title-style-five mb-65 lg-mb-40">
-                  <div className="sc-title-two fst-italic position-relative">
+                  <h1 className="main-title fw-500 tx-dark">Blog - Novidades e Atualizações</h1>
+                  <h2 className="sc-title-two fst-italic position-relative">
                     Blog
-                  </div>
-                  <h2 className="main-title fw-500 tx-dark">
-                    Confira novidades &amp; atualizações
                   </h2>
                 </div>
               </div>

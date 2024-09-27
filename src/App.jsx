@@ -28,6 +28,8 @@ function App() {
         <Route path="/blog" element={<GridWithSidebar />} />
         <Route path="/404" element={<NotFound />} />
         <Route path="/detalhes-do-servico/:id" element={<ServiceDetails />} />
+        {/* Rota para páginas não encontradas */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ScrollTopBehaviour />
       <ScrollToTop />
