@@ -1,7 +1,4 @@
-"use client";
-
 import { useState } from "react";
-
 const FilterBox = () => {
   const formOptions = {
     property: {

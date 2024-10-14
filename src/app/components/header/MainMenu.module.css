@@ -1,0 +1,49 @@
+.mainMenu {
+    width: 100%;
+  }
+
+  .active {
+    color: red !important;
+  }
+
+  .navItems {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .navItem:hover{
+    cursor: pointer;
+  }
+  
+  .navItem {
+    margin-left: 5px;
+  }
+  
+  .navItem a {
+    color: inherit;
+    transition: color 0.3s ease;
+    padding: 5px 5px;
+    font-size: 0.9rem;
+  }
+  
+  .navItem a:hover,
+  .navItem a.active {
+    color: red;
+  }
+
+  /* Adicione esta regra para remover a margem do primeiro item */
+  .navItem:first-child {
+    margin-left: 0;
+  }
+
+  /* Adicione esta regra para ajustar o espaçamento em telas menores */
+  @media (max-width: 991px) {
+    .navItem {
+      margin-left: 2px;
+    }
+    
+    .navItem a {
+      padding: 3px 3px;
+      font-size: 0.85rem;
+    }
+  }

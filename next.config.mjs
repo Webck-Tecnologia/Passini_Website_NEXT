@@ -1,8 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['localhost', 'blog-websites.bchat.lat']
-    }
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'blog-websites.bchat.lat',
+                port: '',
+                pathname: '/**',
+            },
+            // Adicione outros domínios se necessário
+        ],
+    },
 };
 
 export default nextConfig;
