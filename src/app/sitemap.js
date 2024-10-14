@@ -14,12 +14,16 @@ export default async function sitemap() {
     lastModified: new Date().toISOString(),
   }));
 
-  // Buscar posts do blog
-  const blogPosts = await fetchBlogPosts();
-  const blogUrls = blogPosts.data.map((post) => ({
-    url: `${baseUrl}/blog/${post.attributes.slug}`,
-    lastModified: post.attributes.updatedAt,
-  }));
+  let blogUrls = [];
+  try {
+    const blogPosts = await fetchBlogPosts();
+    blogUrls = blogPosts.data.map((post) => ({
+      url: `${baseUrl}/blog/${post.attributes.slug}`,
+      lastModified: post.attributes.updatedAt,
+    }));
+  } catch (error) {
+    console.error('Erro ao buscar posts do blog:', error);
+  }
 
   return [...staticPages, ...blogUrls];
 }
