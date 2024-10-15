@@ -17,9 +17,6 @@ const BlogContent = ({ blog }) => {
       <h2 className='mb-4 mt-4 text-2xl font-bold'>{blog.title}</h2>
 
       {/* Decodifica e sanitiza a descrição antes de renderizar */}
-      <div className="blog-description">
-        {parse(cleanAndDecodeHTML(blog.description))}  
-      </div>
 
       {blog.blocks && blog.blocks.map((block) => {
         switch (block.__component) {
