@@ -1,6 +1,6 @@
 "use client";
 
-import FilterBox from "./FilterBox";
+import FilterBox from "@/app/components/hero/FilterBox";
 
 const Hero = () => {
   return (

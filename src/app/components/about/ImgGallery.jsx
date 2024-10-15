@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "./ImgGallery.module.css";
+import "./ImgGallery.module.css";
 
 const ImgGallery = () => {
   const [isOpen, setOpen] = useState(false);

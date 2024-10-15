@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { notFound } from 'next/navigation';
 import { getServiceById } from './generateStaticParams.js';
 import '@/app/styles/index.scss';
-import Header from '@/app/components/Header/Header';
+import Header from '@/app/components/header/Header';
 import Head from 'next/head';
 import Image from 'next/image.js';
 import Social from './Social.jsx';
