@@ -14,44 +14,51 @@ import Projetos from "./components/Projetos/Projetos";
 import { Contact } from "./components/Contact/Contact";
 import DefaultFooter from "./components/Footer/DefaultFooter";
 import CookieConsent from "./components/CookieConsent";
+
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Seo pageTitle="Passini" />
       <DefaulHeader />
-      <section id="home">
-        <Hero />
-      </section>
-      <div className="fancy-feature-fortyEight position-relative">
-        <div className="container">
-          <div className="line-bg-wrapper position-relative pt-200 pb-200 lg-pt-120 lg-pb-110">
-            <About />
+      <main>
+        <section id="home">
+          <Hero />
+        </section>
+        <section className="fancy-feature-fortyEight position-relative">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="line-bg-wrapper position-relative pt-200 pb-200 lg-pt-120 lg-pb-110">
+                  <About />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <section id="sobre">
-        <Choosen />
-      </section>
-      <section id="servicos">
-        <Servico />
-      </section>
-      <Insurance />
-      <Partness />
-      <Fancy />
-      <section id="faq">
-        <Portfolio />
-      </section>
-      <section id="blog">
-        <BlogPage />
-      </section>
-      <section id="portfolio">
-        <Projetos/>
-      </section>
-      <section id="contato">
-        <Contact/>
-      </section>
+        </section>
+        <section id="sobre">
+          <Choosen />
+        </section>
+        <section id="servicos">
+          <Servico />
+        </section>
+        <Insurance />
+        <Partness />
+        <Fancy />
+        <section id="faq">
+          <Portfolio />
+        </section>
+        <section id="blog">
+          <BlogPage />
+        </section>
+        <section id="portfolio">
+          <Projetos/>
+        </section>
+        <section id="contato">
+          <Contact/>
+        </section>
+      </main>
       <DefaultFooter/>
       <CookieConsent/>
-    </>
+    </div>
   );
 }

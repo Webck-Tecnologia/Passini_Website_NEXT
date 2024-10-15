@@ -1,0 +1,19 @@
+.categoryList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .categoryList li {
+    cursor: pointer;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .categoryList li:hover {
+    color: #007bff;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #007bff;
+  }

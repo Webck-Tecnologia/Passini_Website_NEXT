@@ -14,7 +14,7 @@ const Category = ({ categories }) => {
     <ul className="style-none">
       {categoriesWithArticles.map((category) => (
         <li key={category.id}>
-          <Link href={`/blog/category/${category.slug}`}>
+          <Link href="#">
             {category.name}
             <span className="float-end">({category.articles.length})</span>
           </Link>

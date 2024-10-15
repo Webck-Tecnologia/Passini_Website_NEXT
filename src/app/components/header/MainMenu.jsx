@@ -56,32 +56,19 @@ const MainMenu = () => {
 
   return (
     <nav className={`navbar navbar-expand-lg order-lg-2 ${styles.mainMenu}`}>
-      <button
-        className="navbar-toggler d-block d-lg-none"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className={`navbar-nav ${styles.navItems}`}>
-          {['home', 'sobre', 'servicos', 'faq', 'blog', 'portfolio', 'contato'].map((item) => (
-            <li key={item} className={`nav-item ${styles.navItem}`}>
-              <Link
-                href={isHomePage ? `/#${item}` : `/${item === 'home' ? '' : item}`}
-                className={`nav-link ${isActive(item) ? styles.active : ''}`}
-                onClick={(e) => handleSmoothScroll(e, item)}
-              >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <ul className={`navbar-nav ${styles.navItems}`}>
+        {['home', 'sobre', 'servicos', 'faq', 'blog', 'portfolio', 'contato'].map((item) => (
+          <li key={item} className={`nav-item ${styles.navItem}`}>
+            <Link
+              href={isHomePage ? `/#${item}` : `/${item === 'home' ? '' : item}`}
+              className={`nav-link ${isActive(item) ? styles.active : ''}`}
+              onClick={(e) => handleSmoothScroll(e, item)}
+            >
+              {item.charAt(0).toUpperCase() + item.slice(1)}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };

@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./SearchBox.module.css"; // Assumindo que você está usando CSS modules
