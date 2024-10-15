@@ -1,6 +1,6 @@
 "use client";
 
-import FilterBox from "@/app/components/hero/FilterBox";
+import FilterBox from "@/app/components/hero/caixaDeFiltro";
 
 const Hero = () => {
   return (
