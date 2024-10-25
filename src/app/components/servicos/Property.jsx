@@ -11,19 +11,19 @@ const Property = () => {
       slug: 'grua-sl',
     },
     {
-      id: 'elevadores',
-      image: "/images/servicos/4.webp",
-      title: "Elevadores",
-      delay: "200",
-      slug: 'elevadores',
-    },
-    {
       id: 'projetos-especiais',
       image: "/images/servicos/2.webp",
       title: "Projetos Especiais",
       delay: "300",
       slug: 'projetos-especiais',
     },
+    {
+      id: 'grua-potain',
+      image: "/images/Grua-Potain/Grua-Potain-7.webp",
+      title: "Grua Potain",
+      delay: "400",
+      slug: 'grua-potain',
+    }
   ];
 
   return (

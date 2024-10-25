@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { notFound } from 'next/navigation';
 import { getServiceById } from './generateStaticParams.js';
 import '@/app/styles/index.scss';
@@ -10,6 +10,9 @@ import Image from 'next/image.js';
 import Social from './Social.jsx';
 import ProgressBar from './ProgressBar.jsx';
 import DefaultFooter from '@/app/components/Footer/DefaultFooter.jsx';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import portfolio from '@/app/components/Projetos/PortfolioData';
 
 function generateJsonLd(service) {
   return {
@@ -42,6 +45,19 @@ function generateJsonLd(service) {
 export default function ServiceDetails({ params }) {
     const { slug } = params;
     const service = getServiceById(slug);
+
+    const [isLightboxOpen, setLightboxOpen] = useState(false);
+    const [selectedImages, setSelectedImages] = useState([]);
+
+    const openGallery = (images) => {
+      setSelectedImages(images);
+      setLightboxOpen(true);
+    };
+
+    const closeGallery = () => {
+      setSelectedImages([]);
+      setLightboxOpen(false);
+    };
 
     useEffect(() => {
       if (typeof window !== "undefined") {
@@ -96,6 +112,16 @@ export default function ServiceDetails({ params }) {
                     alt={service.title}
                     className="main-img-meta"
                   />
+                  <button
+                    className="btn btn-primary mb-30"
+                    onClick={() => {
+                      if (service.imagesLightbox) {
+                        openGallery(service.imagesLightbox);
+                      }
+                    }}
+                  >
+                    Ver mais fotos
+                  </button>
                   <p>{service.detalhada}</p>
                   {service.reasons.length > 0 && (
                     <>
@@ -164,6 +190,14 @@ export default function ServiceDetails({ params }) {
       <br />
       <br />
       <DefaultFooter />
+      <Lightbox
+        open={isLightboxOpen}
+        close={closeGallery}
+        slides={selectedImages.map((img) => ({
+          src: img.src,
+          alt: img.alt,
+        }))}
+      />
       </>
     );
 }

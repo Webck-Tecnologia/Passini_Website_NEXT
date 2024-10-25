@@ -1,0 +1,26 @@
+.pswp__thumbnails {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .pswp__thumbnail {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .pswp__thumbnail:hover,
+  .pswp__thumbnail--active {
+    border-color: #fff;
+  }
+  
+  .pswp__button--arrow--left,
+  .pswp__button--arrow--right {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50%;
+  }
