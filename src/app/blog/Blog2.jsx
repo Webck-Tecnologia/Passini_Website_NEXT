@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from './Blog2.module.css';
+import Image from "next/image";
 
 const Blog2 = ({ posts }) => {
   const formatDate = (dateString) => {
@@ -22,10 +23,12 @@ const Blog2 = ({ posts }) => {
           <article className="blog-meta-three mb-60 lg-mb-40">
             <figure className="post-img m0">
               <Link href={`/blog/${post.slug}`} className="w-100 d-block">
-                <img
+                <Image
                   src={`https://blog-websites.bchat.lat${post.cover?.formats?.small?.url}`}
                   alt={post.title}
                   className="lazy-img w-100 tran4s"
+                  width={300}
+                  height={300}
                 />
               </Link>
             </figure>
