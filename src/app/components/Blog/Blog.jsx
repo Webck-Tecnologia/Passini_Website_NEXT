@@ -54,9 +54,9 @@ const Blog = () => {
                 className="blog-meta-six d-flex flex-column position-relative zn2 mt-40"
                 style={coverUrl ? { backgroundImage: `url(https://blog-websites.bchat.lat${coverUrl})` } : {}}
               >
-                <div className="post-data position-relative d-flex flex-column h-100">
+                <div className="post-data d-flex flex-column h-100">
                   <header className="blog-header">
-                    <div>
+                    <div className="px-4">
                       <Link
                         href={`/blog/${post?.slug || ''}`}
                         className="tag text-uppercase fw-500 tran3s mb-20"
@@ -64,7 +64,7 @@ const Blog = () => {
                         {categoryName || "Gruas e Equipamentos de Elevação"}
                       </Link>
                     </div>
-                    <h2>
+                    <h2 className="px-4">
                       <Link href={`/blog/${post?.slug || ''}`}>
                         <span className="tran3s blog-title">{post?.title || 'Informações sobre Gruas em São Paulo'}</span>
                       </Link>

@@ -57,7 +57,7 @@ const MainMenu = () => {
   return (
     <nav className={`navbar navbar-expand-lg order-lg-2 ${styles.mainMenu}`}>
       <ul className={`navbar-nav ${styles.navItems}`}>
-        {['home', 'sobre', 'servicos', 'faq', 'blog', 'portfolio', 'contato'].map((item) => (
+        {['home', 'sobre', 'serviços', 'faq', 'blog', 'portfólio', 'contato'].map((item) => (
           <li key={item} className={`nav-item ${styles.navItem}`}>
             <Link
               href={isHomePage ? `/#${item}` : `/${item === 'home' ? '' : item}`}

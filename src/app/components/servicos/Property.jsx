@@ -28,13 +28,14 @@ const Property = () => {
 
   return (
     <>
-      {properties.map((property, index) => (
-        <div
-          className="col-lg-4 col-sm-6"
-          key={index}
-          data-aos="fade-up"
-          data-aos-delay={property.delay}
-        >
+    {properties.map((property, index) => (
+      <div
+        className="col-lg-4 col-sm-6"
+        key={index}
+        data-aos="fade-up"
+        data-aos-delay={property.delay}
+      >
+        <Link href={`/servicos/${property.slug}`} className="d-block">
           <div className="card-style-twentyOne position-relative mt-35">
             <Image
               src={property.image}
@@ -45,17 +46,14 @@ const Property = () => {
             />
             <div className="hover-overlay d-flex flex-column align-items-center position-absolute tran3s">
               <h3 className="tx-dark title-background">{property.title}</h3>
-              <Link
-                href={`/servicos/${property.slug}`}
-                className="btn-four fw-500 mt-auto"
-              >
-                Ver Mais
-              </Link>
+              <span className="btn-four fw-500 mt-auto">Ver Mais</span>
             </div>
           </div>
-        </div>
-      ))}
-    </>
+        </Link>
+      </div>
+    ))}
+  </>
+
   );
 };
 

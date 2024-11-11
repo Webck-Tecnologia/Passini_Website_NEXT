@@ -74,7 +74,8 @@ const Portfolio = () => {
                     height={500}
                     src={item.image}
                     alt="gallery"
-                    className="w-100"
+                    className="w-100 cursor-pointer"
+                    onClick={() => openGallery(item)}
                   />
                 </div>
                 <div className="meta-data tran3s d-flex align-items-center justify-content-between">
