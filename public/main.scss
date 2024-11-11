@@ -12,3 +12,15 @@
 @import "./scss/style";
 @import "./scss/custom-next";
 @import "./scss/responsive";
+
+.title-background {
+    background-color: #1F27BF; /* Fundo branco semi-transparente */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Gordita', sans-serif;
+    font-size: 16px;
+  }

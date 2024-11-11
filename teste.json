@@ -1,0 +1,1976 @@
+{
+    "data": [
+        {
+            "id": 6,
+            "documentId": "epo1kpmird8p1akeo2zu0qow",
+            "title": "Negociação de Compra e Venda de Gruas: Dicas e Considerações",
+            "description": "A negociação de compra e venda de gruas pode ser um desafio para muitos profissi",
+            "slug": "dicas-e-consideracoes",
+            "createdAt": "2024-10-10T19:17:54.402Z",
+            "updatedAt": "2024-10-10T19:17:54.402Z",
+            "publishedAt": "2024-10-10T19:17:54.417Z",
+            "locale": null,
+            "cover": {
+                "id": 5,
+                "documentId": "zns6b6ed6cxheb6utgq0gph1",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_633c9e81bc.png",
+                        "hash": "large_base64topng_633c9e81bc",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2130.83,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2130830
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_633c9e81bc.png",
+                        "hash": "small_base64topng_633c9e81bc",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 595.63,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 595627
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_633c9e81bc.png",
+                        "hash": "medium_base64topng_633c9e81bc",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1293.71,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1293711
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_633c9e81bc.png",
+                        "hash": "thumbnail_base64topng_633c9e81bc",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 67.25,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 67251
+                    }
+                },
+                "hash": "base64topng_633c9e81bc",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 514.94,
+                "url": "/uploads/base64topng_633c9e81bc.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:17:51.615Z",
+                "updatedAt": "2024-10-10T19:17:51.615Z",
+                "publishedAt": "2024-10-10T19:17:51.615Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 31,
+                    "title": "O que é uma grua?",
+                    "body": "Uma grua é um equipamento utilizado para levantar e transportar materiais pesados. Existem diferentes tipos de gruas, incluindo guindastes, gruas industriais e gruas de construção."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 32,
+                    "title": "O que é preciso considerar ao comprar uma grua?",
+                    "body": "Quando comprar uma grua, é fundamental considerar a procedência do equipamento, a avaliação técnica e o preço no mercado. Além disso, é importante verificar se a empresa vendedora oferece suporte técnico."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 5
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 33,
+                    "title": "Como avaliar a procedência de uma grua?",
+                    "body": "Para avaliar a procedência de uma grua, é necessário verificar a documentação do equipamento, incluindo a certificação e a história de manutenção. Além disso, é importante verificar se a empresa vendedora é confiável."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 34,
+                    "title": "Como realizar avaliações técnicas de uma grua?",
+                    "body": "Para realizar avaliações técnicas de uma grua, é necessário verificar a condição do equipamento, incluindo a lubrificação e a limpeza. Além disso, é importante verificar se o equipamento está em conformidade com as normas de segurança."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 35,
+                    "title": "Como comparar preços de gruas?",
+                    "body": "Para comparar preços de gruas, é necessário verificar os preços de diferentes empresas e verificar se há descontos ou promoções disponíveis."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 36,
+                    "title": "O que é importante considerar ao vender uma grua?",
+                    "body": "Quando vender uma grua, é fundamental considerar a procedência do equipamento, a avaliação técnica e o preço no mercado. Além disso, é importante verificar se a empresa compradora oferece suporte técnico."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 8,
+            "documentId": "x6k3sgkyba9dpu53a02n7v6f",
+            "title": "Locação de Gruas: Vantagens e Economia",
+            "description": "A locação de gruas é uma solução prática para obras de curto e médio prazo, ofer",
+            "slug": "vantagens-e-economia",
+            "createdAt": "2024-10-10T19:24:54.555Z",
+            "updatedAt": "2024-10-10T19:24:54.555Z",
+            "publishedAt": "2024-10-10T19:24:54.581Z",
+            "locale": null,
+            "cover": {
+                "id": 7,
+                "documentId": "xvadb49ye9ie7jd0zitnwmlh",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_bad3a106dc.png",
+                        "hash": "large_base64topng_bad3a106dc",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2389.47,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2389473
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_bad3a106dc.png",
+                        "hash": "small_base64topng_bad3a106dc",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 651.36,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 651357
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_bad3a106dc.png",
+                        "hash": "medium_base64topng_bad3a106dc",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1422.1,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1422100
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_bad3a106dc.png",
+                        "hash": "thumbnail_base64topng_bad3a106dc",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 67.95,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 67953
+                    }
+                },
+                "hash": "base64topng_bad3a106dc",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 646.4,
+                "url": "/uploads/base64topng_bad3a106dc.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:24:37.946Z",
+                "updatedAt": "2024-10-10T19:24:37.946Z",
+                "publishedAt": "2024-10-10T19:24:37.946Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 43,
+                    "title": "O que é locação de gruas",
+                    "body": "A locação de gruas é um serviço que permite ao cliente utilizar uma grua por um período determinado, sem a necessidade de comprar ou manter a máquina. Neste capítulo, vamos explorar as principais características e benefícios da locação de gruas."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 44,
+                    "title": "Vantagens da locação de gruas",
+                    "body": "A locação de gruas oferece várias vantagens, incluindo flexibilidade, economia e manutenção regular garantida. Neste capítulo, vamos analisar cada uma dessas vantagens e como elas podem beneficiar o cliente."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 7
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 45,
+                    "title": "Economia com a locação de gruas",
+                    "body": "A locação de gruas pode ser uma opção mais econômica do que comprar ou manter uma grua própria. Neste capítulo, vamos explorar como a locação de gruas pode ajudar a reduzir os custos e aumentar a eficiência da obra."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 46,
+                    "title": "Tipos de gruas disponíveis para locação",
+                    "body": "Existem diferentes tipos de gruas disponíveis para locação, cada uma com suas próprias características e capacidades. Neste capítulo, vamos explorar os principais tipos de gruas e como escolher a melhor opção para a obra."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 47,
+                    "title": "Como escolher a melhor opção de locação de gruas",
+                    "body": "Escolher a melhor opção de locação de gruas é importante para garantir que a obra seja realizada de forma eficiente e econômica. Neste capítulo, vamos fornecer dicas e sugestões para ajudar a escolher a melhor opção."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 48,
+                    "title": "Conclusões",
+                    "body": "Em resumo, a locação de gruas é uma opção viável para obras de curto e médio prazo, oferecendo flexibilidade, economia e manutenção regular garantida. É importante considerar as vantagens e desvantagens de cada opção antes de tomar uma decisão."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 12,
+            "documentId": "xykqj5b76c49zcyuybvhrvgf",
+            "title": "Equipamentos para construção civil: Gruas e suas aplicações",
+            "description": "A construção civil é um setor que requer equipamentos especializados para garant",
+            "slug": "gruas-e-suas-aplicacoes",
+            "createdAt": "2024-10-10T19:32:18.245Z",
+            "updatedAt": "2024-10-10T19:32:18.245Z",
+            "publishedAt": "2024-10-10T19:32:18.256Z",
+            "locale": null,
+            "cover": {
+                "id": 11,
+                "documentId": "qo2n21km1eg2pymzmtkqsbva",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_c0cfe6b626.png",
+                        "hash": "large_base64topng_c0cfe6b626",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2604.01,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2604010
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_c0cfe6b626.png",
+                        "hash": "small_base64topng_c0cfe6b626",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 678.9,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 678896
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_c0cfe6b626.png",
+                        "hash": "medium_base64topng_c0cfe6b626",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1510.33,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1510326
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_c0cfe6b626.png",
+                        "hash": "thumbnail_base64topng_c0cfe6b626",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 68.84,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 68839
+                    }
+                },
+                "hash": "base64topng_c0cfe6b626",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 769.83,
+                "url": "/uploads/base64topng_c0cfe6b626.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:31:58.898Z",
+                "updatedAt": "2024-10-10T19:31:58.898Z",
+                "publishedAt": "2024-10-10T19:31:58.898Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 67,
+                    "title": "Tipos de guindastes",
+                    "body": "Explique os principais tipos de guindastes utilizados na construção civil, incluindo gruas fixas e móveis, e como eles são adequados para diferentes necessidades e tamanhos de projetos."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 68,
+                    "title": "Locação de Gruas",
+                    "body": "Discuta as vantagens e economia de alugar gruas em obras de construção civil, incluindo flexibilidade e manutenção regular garantida."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 11
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 69,
+                    "title": "Compra e Venda de Gruas",
+                    "body": "Descreva as dicas para negociar bem a compra e venda de gruas, incluindo avaliação técnica do equipamento e pesquisa de mercado."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 70,
+                    "title": "Gruas Fixas",
+                    "body": "Explique como as gruas fixas são utilizadas em obras de construção civil, incluindo a instalação em edifícios e a manutenção regular."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 71,
+                    "title": "Gruas Móveis",
+                    "body": "Descreva como as gruas móveis são utilizadas em obras de construção civil, incluindo a mobilidade e a flexibilidade em diferentes ambientes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 72,
+                    "title": "Manutenção de Gruas",
+                    "body": "Discuta a importância da manutenção regular de gruas em obras de construção civil, incluindo a prevenção de problemas e a garantia de segurança."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 15,
+            "documentId": "vghki3tpk9c0riufbnc7cxhq",
+            "title": "Grua ou Guindaste: Qual é a Melhor Opção para a Construção Civil?",
+            "description": "A escolha entre grua ou guindaste na construção civil é um processo importante q",
+            "slug": "qual-e-a-melhor-opcao-para-a-construcao-civil",
+            "createdAt": "2024-10-10T19:42:04.949Z",
+            "updatedAt": "2024-10-10T19:42:04.949Z",
+            "publishedAt": "2024-10-10T19:42:04.963Z",
+            "locale": null,
+            "cover": {
+                "id": 13,
+                "documentId": "um2bzrd4z6r5x2b194m92p3w",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_e5fba79893.png",
+                        "hash": "large_base64topng_e5fba79893",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2283.29,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2283294
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_e5fba79893.png",
+                        "hash": "small_base64topng_e5fba79893",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 613.5,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 613499
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_e5fba79893.png",
+                        "hash": "medium_base64topng_e5fba79893",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1351.44,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1351442
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_e5fba79893.png",
+                        "hash": "thumbnail_base64topng_e5fba79893",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 65.83,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 65829
+                    }
+                },
+                "hash": "base64topng_e5fba79893",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 631.26,
+                "url": "/uploads/base64topng_e5fba79893.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:38:08.034Z",
+                "updatedAt": "2024-10-10T19:38:08.034Z",
+                "publishedAt": "2024-10-10T19:38:08.035Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 85,
+                    "title": "O que é uma Grua?",
+                    "body": "Uma grua é um equipamento de movimentação de materiais que é utilizado em obras de construção civil. Ela é composta por uma estrutura vertical que suporta um braço móvel que pode ser levantado ou abaixado para movimentar materiais em alturas elevadas. As gruas são ideais para obras de grande porte e construções verticais, como edifícios, pontes e torres."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 86,
+                    "title": "O que é um Guindaste?",
+                    "body": "Um guindaste é um equipamento de movimentação de materiais que é utilizado em obras de construção civil. Ele é composto por uma estrutura móvel que pode ser levantada ou abaixada para movimentar materiais em diferentes alturas. Os guindastes são mais versáteis e móveis que as gruas, o que os torna ideais para trabalhos que exigem flexibilidade e deslocamento rápido no canteiro de obras."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 14
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 87,
+                    "title": "Diferenças entre Grua e Guindaste",
+                    "body": "As gruas e os guindastes têm características e vantagens diferentes. As gruas são ideais para obras de grande porte e construções verticais, enquanto os guindastes são mais versáteis e móveis. É importante considerar o tipo de obra, a altura, o peso dos materiais e a mobilidade necessária para tomar a melhor decisão."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 88,
+                    "title": "Quando usar uma Grua?",
+                    "body": "As gruas são ideais para obras de grande porte e construções verticais, como edifícios, pontes e torres. Elas são também utilizadas em obras que exigem movimentação de materiais em alturas elevadas, como construções de prédios e edifícios."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 89,
+                    "title": "Quando usar um Guindaste?",
+                    "body": "Os guindastes são ideais para trabalhos que exigem flexibilidade e deslocamento rápido no canteiro de obras. Eles são também utilizados em obras que exigem movimentação de materiais em diferentes alturas, como construções de pontes e estradas."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 90,
+                    "title": "Conclusões",
+                    "body": "Em resumo, a escolha entre grua ou guindaste depende das necessidades específicas do projeto. As gruas são ideais para obras de grande porte e construções verticais, enquanto os guindastes são mais versáteis e móveis, indicados para trabalhos que exigem flexibilidade e deslocamento rápido no canteiro de obras."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 17,
+            "documentId": "be4l9rj0u82dbqkd5polmdzy",
+            "title": "O Uso de Gruas na Construção Civil em São Paulo",
+            "description": "A construção civil em São Paulo é um setor em constante expansão, com a demanda ",
+            "slug": "o-uso-de-gruas",
+            "createdAt": "2024-10-10T19:30:07.311Z",
+            "updatedAt": "2024-10-10T19:47:09.499Z",
+            "publishedAt": "2024-10-10T19:47:09.534Z",
+            "locale": null,
+            "cover": {
+                "id": 9,
+                "documentId": "s2tqy9p1h1a8w7xoqn89wuif",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_cc5a832f1d.png",
+                        "hash": "large_base64topng_cc5a832f1d",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2288.75,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2288746
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_cc5a832f1d.png",
+                        "hash": "small_base64topng_cc5a832f1d",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 597.23,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 597226
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_cc5a832f1d.png",
+                        "hash": "medium_base64topng_cc5a832f1d",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1329.96,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1329961
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_cc5a832f1d.png",
+                        "hash": "thumbnail_base64topng_cc5a832f1d",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 61.1,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 61097
+                    }
+                },
+                "hash": "base64topng_cc5a832f1d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 727.95,
+                "url": "/uploads/base64topng_cc5a832f1d.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:29:51.168Z",
+                "updatedAt": "2024-10-10T19:29:51.168Z",
+                "publishedAt": "2024-10-10T19:29:51.168Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 97,
+                    "title": "A Importância das Gruas na Construção Civil",
+                    "body": "Explique a importância das gruas na construção civil em São Paulo, destacando a sua capacidade de transportar materiais pesados e otimizar o tempo nas obras."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 98,
+                    "title": "Tipos de Gruas e suas Aplicabilidades",
+                    "body": "Descreva os principais tipos de gruas utilizados na construção civil em São Paulo, destacando suas características e aplicabilidades."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 16
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 99,
+                    "title": "Locação e Compra de Gruas",
+                    "body": "Explique as opções de locação e compra de gruas disponíveis em São Paulo, destacando as vantagens e desvantagens de cada opção."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 100,
+                    "title": "Segurança e Eficiência nas Obras",
+                    "body": "Descreva como as gruas contribuem para a segurança e eficiência nas obras, destacando a importância da escolha do tipo de grua adequado para cada projeto."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 101,
+                    "title": "Casos de Estudo: Gruas em Construções Civis em São Paulo",
+                    "body": "Forneça exemplos de casos de estudo de construções civis em São Paulo que utilizaram gruas, destacando os resultados obtidos e as lições aprendidas."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 102,
+                    "title": "Perspectivas Futuras: Evolução das Gruas na Construção Civil",
+                    "body": "Descreva as perspectivas futuras da evolução das gruas na construção civil em São Paulo, destacando as tendências e inovações que estão mudando o setor."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 19,
+            "documentId": "co7ru1xbll7ricmroo6i43jf",
+            "title": "Locação de Equipamentos para Construção Civil: Uma Opção Econômica e Prática",
+            "description": "A locação de equipamentos para construção civil é uma opção cada vez mais popula",
+            "slug": "uma-opcao-economica-e-pratica",
+            "createdAt": "2024-10-10T19:50:03.496Z",
+            "updatedAt": "2024-10-10T19:50:03.496Z",
+            "publishedAt": "2024-10-10T19:50:03.508Z",
+            "locale": null,
+            "cover": {
+                "id": 17,
+                "documentId": "f0wjwwgp2miao0qkdljtay1l",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_ebc8561dd4.png",
+                        "hash": "large_base64topng_ebc8561dd4",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2312.87,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2312873
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_ebc8561dd4.png",
+                        "hash": "small_base64topng_ebc8561dd4",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 598.5,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 598500
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_ebc8561dd4.png",
+                        "hash": "medium_base64topng_ebc8561dd4",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1340.74,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1340740
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_ebc8561dd4.png",
+                        "hash": "thumbnail_base64topng_ebc8561dd4",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 61.23,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 61225
+                    }
+                },
+                "hash": "base64topng_ebc8561dd4",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 705.64,
+                "url": "/uploads/base64topng_ebc8561dd4.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:49:38.001Z",
+                "updatedAt": "2024-10-10T19:49:38.001Z",
+                "publishedAt": "2024-10-10T19:49:38.001Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 109,
+                    "title": "O que é a locação de equipamentos para construção civil?",
+                    "body": "A locação de equipamentos para construção civil é uma prática comum em projetos temporários, onde os empreendedores e construtores precisam de equipamentos especializados para realizar as obras. Nesta seção, vamos explorar o que é a locação de equipamentos e como ela pode ser uma opção econômica e prática."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 110,
+                    "title": "Benefícios da locação de equipamentos para construção civil",
+                    "body": "A locação de equipamentos para construção civil oferece vários benefícios, incluindo redução de custos operacionais, flexibilidade e variedade de opções. Nesta seção, vamos explorar esses benefícios e como eles podem ser aplicados em projetos temporários."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 18
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 111,
+                    "title": "Preço da Grua",
+                    "body": "O preço da grua é um fator importante a considerar quando se trata de locação de equipamentos para construção civil. Nesta seção, vamos explorar como o preço da grua é calculado e como ele pode variar de acordo com o tipo de equipamento e a duração do contrato."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 112,
+                    "title": "Fornecedores de Gruas",
+                    "body": "Existem vários fornecedores de gruas que oferecem serviços de locação de equipamentos para construção civil. Nesta seção, vamos explorar como escolher o fornecedor certo e como garantir que o equipamento esteja em boas condições."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 113,
+                    "title": "Locação de maquinas e equipamentos",
+                    "body": "A locação de maquinas e equipamentos é uma opção comum em projetos temporários, onde os empreendedores e construtores precisam de equipamentos especializados para realizar as obras. Nesta seção, vamos explorar como a locação de maquinas e equipamentos pode ser uma opção econômica e prática."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 114,
+                    "title": "Conclusões",
+                    "body": "Em resumo, a locação de equipamentos para construção civil é uma opção econômica e prática que pode reduzir custos operacionais e melhorar a eficiência em projetos temporários. Além disso, a locação oferece uma flexibilidade e uma variedade de opções para atender às necessidades específicas de cada empreendimento."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 21,
+            "documentId": "yoi4k5m7qxhjmavhbsom1tpm",
+            "title": "Passini Equipamentos: Referência na Construção Civil",
+            "description": "A Passini Equipamentos é uma referência na construção civil, especializada em so",
+            "slug": "referencia-na-construcao-civil",
+            "createdAt": "2024-10-10T19:52:45.377Z",
+            "updatedAt": "2024-10-10T19:52:45.377Z",
+            "publishedAt": "2024-10-10T19:52:45.390Z",
+            "locale": null,
+            "cover": {
+                "id": 19,
+                "documentId": "rltsx8rpfs0ycrrhygvlxjnx",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_0aee189aea.png",
+                        "hash": "large_base64topng_0aee189aea",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2217.29,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2217288
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_0aee189aea.png",
+                        "hash": "small_base64topng_0aee189aea",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 604.47,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 604467
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_0aee189aea.png",
+                        "hash": "medium_base64topng_0aee189aea",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1321.42,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1321418
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_0aee189aea.png",
+                        "hash": "thumbnail_base64topng_0aee189aea",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 64.98,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 64983
+                    }
+                },
+                "hash": "base64topng_0aee189aea",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 609.54,
+                "url": "/uploads/base64topng_0aee189aea.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:52:26.405Z",
+                "updatedAt": "2024-10-10T19:52:26.405Z",
+                "publishedAt": "2024-10-10T19:52:26.405Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 121,
+                    "title": "História da Passini Equipamentos",
+                    "body": "A Passini Equipamentos tem mais de 50 anos de experiência na construção civil, especializada em soluções de acesso vertical com gruas e guindastes. Neste capítulo, vamos explorar a história da empresa e como ela se tornou uma referência no setor."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 122,
+                    "title": "Soluções de Acesso Vertical",
+                    "body": "A Passini Equipamentos oferece soluções de acesso vertical com gruas e guindastes para projetos de grande porte e complexidade. Neste capítulo, vamos explorar as características e benefícios dessas soluções."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 20
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 123,
+                    "title": "Equipamentos de Alta Qualidade",
+                    "body": "A Passini Equipamentos é conhecida por sua qualidade nos equipamentos, que são projetados e construídos para atender às necessidades específicas dos clientes. Neste capítulo, vamos explorar os equipamentos da empresa e como eles são desenvolvidos."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 124,
+                    "title": "Serviços de Suporte Técnico",
+                    "body": "A Passini Equipamentos oferece serviços de suporte técnico especializado para garantir a eficiência e segurança dos equipamentos. Neste capítulo, vamos explorar os serviços de suporte técnico da empresa."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 125,
+                    "title": "Venda e Locação de Equipamentos",
+                    "body": "A Passini Equipamentos oferece tanto a venda quanto a locação de equipamentos para atender às necessidades dos clientes. Neste capítulo, vamos explorar as opções de venda e locação da empresa."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 126,
+                    "title": "Experiência e Reconhecimento",
+                    "body": "A Passini Equipamentos tem mais de 50 anos de experiência na construção civil e é reconhecida por sua qualidade e eficiência. Neste capítulo, vamos explorar a experiência e o reconhecimento da empresa."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 23,
+            "documentId": "dq7j7r4t67rbuqfmuthco5hc",
+            "title": "Grua SL: Uma Opção Versátil e Eficiente para Obras de Elevação de Cargas",
+            "description": "A escolha da grua certa é fundamental para garantir a segurança e a eficiência e",
+            "slug": "uma-opcao-versatil-e-eficiente-para-obras-de-elevacao-de-cargas",
+            "createdAt": "2024-10-10T19:54:57.597Z",
+            "updatedAt": "2024-10-10T19:54:57.597Z",
+            "publishedAt": "2024-10-10T19:54:57.611Z",
+            "locale": null,
+            "cover": {
+                "id": 21,
+                "documentId": "vecer2aml0vipy1fbqjqnh5y",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_a1f46de98c.png",
+                        "hash": "large_base64topng_a1f46de98c",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 1868.05,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 1868054
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_a1f46de98c.png",
+                        "hash": "small_base64topng_a1f46de98c",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 524.81,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 524807
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_a1f46de98c.png",
+                        "hash": "medium_base64topng_a1f46de98c",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1144.22,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1144218
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_a1f46de98c.png",
+                        "hash": "thumbnail_base64topng_a1f46de98c",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 59.73,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 59734
+                    }
+                },
+                "hash": "base64topng_a1f46de98c",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 444.84,
+                "url": "/uploads/base64topng_a1f46de98c.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:54:38.956Z",
+                "updatedAt": "2024-10-10T19:54:38.956Z",
+                "publishedAt": "2024-10-10T19:54:38.957Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 133,
+                    "title": "O que é uma Grua SL?",
+                    "body": "A grua SL é uma opção versátil e eficiente para obras que necessitam de um equipamento de elevação de cargas. Nesse sentido, é importante entender as características e benefícios da grua SL em relação às outras opções."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 134,
+                    "title": "Características da Grua SL",
+                    "body": "A grua SL é uma opção mais leve e flexível em relação às gruas de tipo fixa. Além disso, é mais fácil de desmontar e transportar. Nesse sentido, é importante entender as características da grua SL e como elas podem beneficiar sua obra."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 22
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 135,
+                    "title": "Benefícios da Grua SL",
+                    "body": "A grua SL oferece vários benefícios em relação às outras opções. Em primeiro lugar, é mais segura, pois é projetada para trabalhar em áreas mais estreitas. Além disso, é mais eficiente, pois pode ser montada em vão de laje ou dentro do poço do elevador."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 136,
+                    "title": "Diferenças entre Grua SL e Grua de Tipo Fixa",
+                    "body": "A grua SL é uma opção mais leve e flexível em relação às gruas de tipo fixa. Além disso, é mais fácil de desmontar e transportar. Nesse sentido, é importante entender as diferenças entre grua SL e grua de tipo fixa para tomar a melhor decisão para sua obra."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 137,
+                    "title": "Como escolher a Grua Certa para sua Obra",
+                    "body": "A escolha da grua certa é fundamental para garantir a segurança e a eficiência em obras que envolvem a elevação de cargas. Nesse sentido, é importante considerar as características e benefícios da grua SL e como elas podem beneficiar sua obra."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 138,
+                    "title": "Conclusões",
+                    "body": "Em resumo, a grua SL é uma opção ideal para obras que necessitam de um equipamento de elevação de cargas, pois é mais leve e pode ser facilmente desmontada ao final da obra. Além disso, é importante considerar as diferenças entre grua SL e grua de tipo fixa para tomar a melhor decisão para sua obra."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 25,
+            "documentId": "dyzp5ficn7n2lou7l1c8svs2",
+            "title": "Elevadores de Cremalheira da Passini: A Solução para Projetos de Construção",
+            "description": "Os elevadores de cremalheira da Passini são uma solução versátil para projetos d",
+            "slug": "a-solucao-para-projetos-de-construcao",
+            "createdAt": "2024-10-10T19:57:16.234Z",
+            "updatedAt": "2024-10-10T19:57:16.234Z",
+            "publishedAt": "2024-10-10T19:57:16.246Z",
+            "locale": null,
+            "cover": {
+                "id": 23,
+                "documentId": "moip196oigfs34y62iwcg67e",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_dce560c02a.png",
+                        "hash": "large_base64topng_dce560c02a",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2719.47,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2719469
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_dce560c02a.png",
+                        "hash": "small_base64topng_dce560c02a",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 702.78,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 702779
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_dce560c02a.png",
+                        "hash": "medium_base64topng_dce560c02a",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1567.54,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1567536
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_dce560c02a.png",
+                        "hash": "thumbnail_base64topng_dce560c02a",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 69.38,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 69382
+                    }
+                },
+                "hash": "base64topng_dce560c02a",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 826.08,
+                "url": "/uploads/base64topng_dce560c02a.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:56:55.278Z",
+                "updatedAt": "2024-10-10T19:56:55.278Z",
+                "publishedAt": "2024-10-10T19:56:55.278Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 145,
+                    "title": "O que são Elevadores de Cremalheira?",
+                    "body": "Os elevadores de cremalheira são uma solução para movimentação vertical eficiente e segura em obras de construção. Nesta seção, vamos explorar como eles funcionam e quais são seus benefícios."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 146,
+                    "title": "Benefícios dos Elevadores de Cremalheira",
+                    "body": "Os elevadores de cremalheira oferecem vários benefícios para projetos de construção, incluindo eficiência, segurança e redução de custos. Nesta seção, vamos explorar esses benefícios em mais detalhes."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 24
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 147,
+                    "title": "Como os Elevadores de Cremalheira Funcionam",
+                    "body": "Os elevadores de cremalheira funcionam com base em tecnologia avançada e robustez. Nesta seção, vamos explorar como eles funcionam e quais são seus componentes principais."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 148,
+                    "title": "Aplicação dos Elevadores de Cremalheira",
+                    "body": "Os elevadores de cremalheira podem ser aplicados em vários tipos de obras de construção, incluindo edifícios, pontes e túneis. Nesta seção, vamos explorar como eles podem ser utilizados em diferentes contextos."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 149,
+                    "title": "Desempenho e Manutenção dos Elevadores de Cremalheira",
+                    "body": "Os elevadores de cremalheira precisam ser mantidos e reparados regularmente para garantir seu desempenho e segurança. Nesta seção, vamos explorar como isso pode ser feito."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 150,
+                    "title": "Conclusões",
+                    "body": "Em resumo, os elevadores de cremalheira da Passini são uma escolha inteligente para projetos de construção que requerem movimentação vertical eficiente e segura. Com sua tecnologia avançada e robustez, esses elevadores podem melhorar a eficiência e segurança em obras de construção, garantindo que sua obra seja concluída dentro do cronograma."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 27,
+            "documentId": "zwlmvg75t03udx4watbyf8qv",
+            "title": "A Grua Ascensional da Passini Equipamentos: Uma Solução Ideal para Obras de Construção Civil",
+            "description": "A construção civil é um setor que exige elevação de cargas em alturas elevadas, ",
+            "slug": "uma-solucao-ideal-para-obras-de-construcao-civil",
+            "createdAt": "2024-10-10T19:59:49.050Z",
+            "updatedAt": "2024-10-10T19:59:49.050Z",
+            "publishedAt": "2024-10-10T19:59:49.063Z",
+            "locale": null,
+            "cover": {
+                "id": 25,
+                "documentId": "s0laf5kycfrtd5z5khesvlg1",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_ff997581ca.png",
+                        "hash": "large_base64topng_ff997581ca",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2167.73,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2167726
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_ff997581ca.png",
+                        "hash": "small_base64topng_ff997581ca",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 585.66,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 585655
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_ff997581ca.png",
+                        "hash": "medium_base64topng_ff997581ca",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1293.07,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1293067
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_ff997581ca.png",
+                        "hash": "thumbnail_base64topng_ff997581ca",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 64.17,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 64167
+                    }
+                },
+                "hash": "base64topng_ff997581ca",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 542.84,
+                "url": "/uploads/base64topng_ff997581ca.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T19:59:25.756Z",
+                "updatedAt": "2024-10-10T19:59:25.756Z",
+                "publishedAt": "2024-10-10T19:59:25.756Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": {
+                "id": 1,
+                "documentId": "mioupd77r5w0vl1dwnbq8lv5",
+                "name": "Equipamentos",
+                "slug": "equipamentos",
+                "description": null,
+                "createdAt": "2024-10-10T17:36:02.070Z",
+                "updatedAt": "2024-10-10T20:35:05.488Z",
+                "publishedAt": "2024-10-10T20:35:05.466Z",
+                "locale": null
+            },
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 157,
+                    "title": "O que é uma Grua Ascensional?",
+                    "body": "A grua ascensional é uma máquina que permite a elevação de cargas em alturas elevadas, tornando-a essencial para obras de construção civil. Nesta seção, vamos explorar as características e benefícios da grua ascensional."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 158,
+                    "title": "A Passini Equipamentos: Uma Empresa Especializada em Elevação",
+                    "body": "A Passini Equipamentos é uma empresa especializada em fornecer soluções de elevação para obras de construção civil. Nesta seção, vamos conhecer melhor a empresa e suas soluções."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 26
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 159,
+                    "title": "Características da Grua Ascensional da Passini Equipamentos",
+                    "body": "A grua ascensional da Passini Equipamentos é projetada para subir junto com a estrutura do edifício, oferecendo praticidade e eficiência durante todo o projeto. Nesta seção, vamos explorar as características da grua ascensional."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 160,
+                    "title": "Benefícios da Grua Ascensional da Passini Equipamentos",
+                    "body": "A grua ascensional da Passini Equipamentos oferece vários benefícios para obras de construção civil, incluindo segurança, eficiência e redução de custos. Nesta seção, vamos explorar os benefícios da grua ascensional."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 161,
+                    "title": "Exemplos de Uso da Grua Ascensional da Passini Equipamentos",
+                    "body": "A grua ascensional da Passini Equipamentos é utilizada em várias obras de construção civil, incluindo edifícios residenciais, comerciais e industriais. Nesta seção, vamos explorar exemplos de uso da grua ascensional."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 162,
+                    "title": "Conclusões",
+                    "body": "Em resumo, a grua ascensional da Passini Equipamentos é uma solução ideal para obras de construção civil que exigem elevação de cargas em alturas elevadas. Com sua qualidade e segurança garantidas, é uma escolha confiável para construtoras que buscam equipamentos robustos e de alta performance."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 29,
+            "documentId": "kxgc55w8bmc3ag07nuhdzs3w",
+            "title": "A Qualidade no Serviço da Passini Equipamentos: Um Caso de Sucesso",
+            "description": "A Passini Equipamentos é uma empresa que se destaca no mercado de locação de gru",
+            "slug": "um-caso-de-sucesso",
+            "createdAt": "2024-10-10T20:04:20.136Z",
+            "updatedAt": "2024-10-10T20:04:20.136Z",
+            "publishedAt": "2024-10-10T20:04:20.146Z",
+            "locale": null,
+            "cover": {
+                "id": 27,
+                "documentId": "b3vnbvgyxob7g0cyckijaqg9",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_fa40f724df.png",
+                        "hash": "large_base64topng_fa40f724df",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2100.65,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2100653
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_fa40f724df.png",
+                        "hash": "small_base64topng_fa40f724df",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 559.82,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 559822
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_fa40f724df.png",
+                        "hash": "medium_base64topng_fa40f724df",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1239.54,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1239538
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_fa40f724df.png",
+                        "hash": "thumbnail_base64topng_fa40f724df",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 60.8,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 60803
+                    }
+                },
+                "hash": "base64topng_fa40f724df",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 568.85,
+                "url": "/uploads/base64topng_fa40f724df.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T20:04:00.426Z",
+                "updatedAt": "2024-10-10T20:04:00.426Z",
+                "publishedAt": "2024-10-10T20:04:00.426Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 169,
+                    "title": "A História da Passini Equipamentos",
+                    "body": "A Passini Equipamentos tem uma história que remonta décadas, desde sua fundação até o presente. Neste capítulo, vamos explorar a evolução da empresa e como ela se tornou uma referência no mercado de locação de gruas e guindastes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 170,
+                    "title": "A Qualidade no Serviço",
+                    "body": "A qualidade no serviço é um dos principais diferenciais da Passini Equipamentos. Neste capítulo, vamos analisar como a empresa se destaca em termos de atendimento, suporte técnico e manutenção rigorosa de seus equipamentos."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 28
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 171,
+                    "title": "Custo-Benefício",
+                    "body": "O custo-benefício é um aspecto crucial para as empresas que buscam soluções integradas e eficazes para suas demandas de acesso vertical em projetos de construção. Neste capítulo, vamos explorar como a Passini Equipamentos oferece um custo-benefício competitivo e como isso beneficia seus clientes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 172,
+                    "title": "Garantia de Qualidade",
+                    "body": "A garantia de qualidade é um aspecto fundamental para as empresas que buscam confiança em seus fornecedores. Neste capítulo, vamos analisar como a Passini Equipamentos oferece uma garantia de qualidade rigorosa e como isso beneficia seus clientes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 173,
+                    "title": "Experiência e Especialização",
+                    "body": "A experiência e especialização são fundamentais para a Passini Equipamentos. Neste capítulo, vamos explorar como a empresa se destaca em termos de experiência e especialização em locação de gruas e guindastes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 174,
+                    "title": "Inovação e Tecnologia",
+                    "body": "A inovação e tecnologia são fundamentais para a Passini Equipamentos. Neste capítulo, vamos analisar como a empresa se destaca em termos de inovação e tecnologia em locação de gruas e guindastes."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 31,
+            "documentId": "sqzxqxhpgpx8xctm3k2binzw",
+            "title": "A Liderança da Passini de eA Passini no Mercado de Construção Civil",
+            "description": "A Passini de eA Passini é uma empresa que tem se destacado no mercado de constru",
+            "slug": "a-lideranca-da",
+            "createdAt": "2024-10-10T20:07:40.358Z",
+            "updatedAt": "2024-10-10T20:07:40.358Z",
+            "publishedAt": "2024-10-10T20:07:40.371Z",
+            "locale": null,
+            "cover": {
+                "id": 29,
+                "documentId": "x7uzchagw87m4wt3jw07xzok",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_cc254b4137.png",
+                        "hash": "large_base64topng_cc254b4137",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2688.64,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2688644
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_cc254b4137.png",
+                        "hash": "small_base64topng_cc254b4137",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 692.79,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 692793
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_cc254b4137.png",
+                        "hash": "medium_base64topng_cc254b4137",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1547.39,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1547387
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_cc254b4137.png",
+                        "hash": "thumbnail_base64topng_cc254b4137",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 69.62,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 69617
+                    }
+                },
+                "hash": "base64topng_cc254b4137",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 765.76,
+                "url": "/uploads/base64topng_cc254b4137.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T20:07:20.200Z",
+                "updatedAt": "2024-10-10T20:07:20.200Z",
+                "publishedAt": "2024-10-10T20:07:20.200Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 181,
+                    "title": "A História da Passini de eA Passini",
+                    "body": "Nesta seção, vamos explorar a história da Passini de eA Passini e como a empresa se desenvolveu ao longo dos anos."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 182,
+                    "title": "A Importância da Eficiência",
+                    "body": "Nesta seção, vamos discutir a importância da eficiência na construção civil e como a Passini de eA Passini a alcança com suas gruas SL."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 30
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 183,
+                    "title": "A Inovação na Construção Civil",
+                    "body": "Nesta seção, vamos explorar como a Passini de eA Passini está sempre inovando e melhorando seus processos para atender às necessidades dos clientes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 184,
+                    "title": "A Liderança da Passini de eA Passini",
+                    "body": "Nesta seção, vamos discutir como a Passini de eA Passini se destacou no mercado de construção civil e como a liderança da empresa contribui para o sucesso."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 185,
+                    "title": "A Contribuição das Gruas SL",
+                    "body": "Nesta seção, vamos explorar como as gruas SL da Passini de eA Passini contribuem para o sucesso da empresa e como elas são fundamentais para a construção civil."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 186,
+                    "title": "O Futuro da Passini de eA Passini",
+                    "body": "Nesta seção, vamos discutir como a Passini de eA Passini está se preparando para o futuro e como a empresa continuará a se destacar no mercado de construção civil."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 33,
+            "documentId": "y0rqoskboyxil26zkbks4io1",
+            "title": "Passini Equipamentos: Um Parceiro Essencial na Construção Civil",
+            "description": "A Passini Equipamentos é uma empresa que se destaca na construção civil, oferece",
+            "slug": "um-parceiro-essencial-na-construcao-civil",
+            "createdAt": "2024-10-10T20:19:34.939Z",
+            "updatedAt": "2024-10-10T20:19:34.939Z",
+            "publishedAt": "2024-10-10T20:19:34.952Z",
+            "locale": null,
+            "cover": {
+                "id": 31,
+                "documentId": "u816ubcn6khdsw6jwzvrnmvg",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_0f8b7b954e.png",
+                        "hash": "large_base64topng_0f8b7b954e",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2204.19,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2204185
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_0f8b7b954e.png",
+                        "hash": "small_base64topng_0f8b7b954e",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 596.95,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 596947
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_0f8b7b954e.png",
+                        "hash": "medium_base64topng_0f8b7b954e",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1313.73,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1313733
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_0f8b7b954e.png",
+                        "hash": "thumbnail_base64topng_0f8b7b954e",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 66.12,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 66119
+                    }
+                },
+                "hash": "base64topng_0f8b7b954e",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 535.68,
+                "url": "/uploads/base64topng_0f8b7b954e.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T20:19:15.642Z",
+                "updatedAt": "2024-10-10T20:19:15.642Z",
+                "publishedAt": "2024-10-10T20:19:15.643Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 193,
+                    "title": "A História da Passini Equipamentos",
+                    "body": "Descreva a história da Passini Equipamentos, desde sua fundação até o presente, destacando seus principais feitos e conquistas."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 194,
+                    "title": "A Importância da Qualidade",
+                    "body": "Explique a importância da qualidade na construção civil e como a Passini Equipamentos se compromete em atender às necessidades mais exigentes do setor."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 32
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 195,
+                    "title": "Inovação e Tecnologia",
+                    "body": "Descreva como a Passini Equipamentos se destaca em termos de inovação e tecnologia, oferecendo soluções eficientes e seguras para cada projeto."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 196,
+                    "title": "Parceiros Essenciais",
+                    "body": "Explique como a Passini Equipamentos se tornou um parceiro essencial para o sucesso de obras de todos os portes, destacando seus principais clientes e projetos."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 197,
+                    "title": "Serviços e Equipamentos",
+                    "body": "Descreva os serviços e equipamentos oferecidos pela Passini Equipamentos, destacando sua ampla gama de opções e soluções personalizadas."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 198,
+                    "title": "Suporte Técnico",
+                    "body": "Explique como o suporte técnico especializado da Passini Equipamentos ajuda a garantir o sucesso de cada projeto, destacando seus principais serviços e benefícios."
+                }
+            ],
+            "localizations": []
+        },
+        {
+            "id": 35,
+            "documentId": "bpo3bve8spwd8wp6r3a10vwp",
+            "title": "A História de Qualidade de Serviço da Passini Equipamentos",
+            "description": "A Passini Equipamentos é uma empresa que tem se destacado no mercado de construç",
+            "slug": "a-historia-de",
+            "createdAt": "2024-10-10T20:22:42.948Z",
+            "updatedAt": "2024-10-10T20:22:42.948Z",
+            "publishedAt": "2024-10-10T20:22:42.986Z",
+            "locale": null,
+            "cover": {
+                "id": 33,
+                "documentId": "atwxxw5sbw42ivejqekp4416",
+                "name": "base64topng",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "/uploads/large_base64topng_03201dcaf8.png",
+                        "hash": "large_base64topng_03201dcaf8",
+                        "mime": "image/png",
+                        "name": "large_base64topng",
+                        "path": null,
+                        "size": 2820.21,
+                        "width": 1000,
+                        "height": 1000,
+                        "sizeInBytes": 2820213
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "/uploads/small_base64topng_03201dcaf8.png",
+                        "hash": "small_base64topng_03201dcaf8",
+                        "mime": "image/png",
+                        "name": "small_base64topng",
+                        "path": null,
+                        "size": 711.05,
+                        "width": 500,
+                        "height": 500,
+                        "sizeInBytes": 711052
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "/uploads/medium_base64topng_03201dcaf8.png",
+                        "hash": "medium_base64topng_03201dcaf8",
+                        "mime": "image/png",
+                        "name": "medium_base64topng",
+                        "path": null,
+                        "size": 1601.42,
+                        "width": 750,
+                        "height": 750,
+                        "sizeInBytes": 1601416
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "/uploads/thumbnail_base64topng_03201dcaf8.png",
+                        "hash": "thumbnail_base64topng_03201dcaf8",
+                        "mime": "image/png",
+                        "name": "thumbnail_base64topng",
+                        "path": null,
+                        "size": 70.39,
+                        "width": 156,
+                        "height": 156,
+                        "sizeInBytes": 70386
+                    }
+                },
+                "hash": "base64topng_03201dcaf8",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 882.07,
+                "url": "/uploads/base64topng_03201dcaf8.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-10-10T20:22:21.593Z",
+                "updatedAt": "2024-10-10T20:22:21.593Z",
+                "publishedAt": "2024-10-10T20:22:21.593Z",
+                "locale": null
+            },
+            "author": {
+                "id": 1,
+                "documentId": "w45tob02oqbtcp2zjbs7t66q",
+                "name": "Roberto Humberto",
+                "email": "roberto@bolt360.com.br",
+                "createdAt": "2024-10-10T17:35:39.408Z",
+                "updatedAt": "2024-10-10T17:35:39.408Z",
+                "publishedAt": "2024-10-10T17:35:39.396Z",
+                "locale": null
+            },
+            "category": null,
+            "blocks": [
+                {
+                    "__component": "shared.quote",
+                    "id": 205,
+                    "title": "A Fundação da Passini Equipamentos",
+                    "body": "A Passini Equipamentos foi fundada em [ano] por [nome do fundador], com o objetivo de fornecer serviços de construção civil de alta qualidade. Neste capítulo, vamos explorar a história da fundação da empresa e como ela começou a se estabelecer no mercado."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 206,
+                    "title": "O Desenvolvimento da Empresa",
+                    "body": "A Passini Equipamentos começou a se desenvolver rapidamente nos anos seguintes, com a empresa expandindo seus serviços para incluir [serviços adicionais]. Neste capítulo, vamos explorar como a empresa cresceu e se estabeleceu no mercado."
+                },
+                {
+                    "__component": "shared.media",
+                    "id": 34
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 207,
+                    "title": "A Qualidade de Serviço",
+                    "body": "A Passini Equipamentos é conhecida por sua qualidade de serviço, que é garantida por uma equipe de profissionais altamente treinados e experientes. Neste capítulo, vamos explorar como a empresa mantém sua qualidade de serviço e como isso é importante para os clientes."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 208,
+                    "title": "O Trabalho com a Marinha do Brasil",
+                    "body": "A Passini Equipamentos trabalhou em conjunto com a Marinha do Brasil em [projeto], um projeto que exigiu [desafios]. Neste capítulo, vamos explorar como a empresa trabalhou com a Marinha do Brasil e o que foi aprendido com o projeto."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 209,
+                    "title": "A Atualização com as Últimas Tecnologias",
+                    "body": "A Passini Equipamentos tem se mantido atualizada com as últimas tecnologias, incluindo [tecnologias]. Neste capítulo, vamos explorar como a empresa está se adaptando às mudanças tecnológicas e como isso está melhorando sua qualidade de serviço."
+                },
+                {
+                    "__component": "shared.quote",
+                    "id": 210,
+                    "title": "O Futuro da Passini Equipamentos",
+                    "body": "A Passini Equipamentos tem um futuro promissor, com planos de expansão e desenvolvimento em andamento. Neste capítulo, vamos explorar como a empresa está se preparando para o futuro e o que podemos esperar da empresa nos próximos anos."
+                }
+            ],
+            "localizations": []
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 14
+        }
+    }
+}

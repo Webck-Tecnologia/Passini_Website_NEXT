@@ -1,0 +1,72 @@
+.header {
+  position: relative;
+}
+
+.mobileMenuToggle {
+  z-index: 1001;
+}
+
+.navbarToggler {
+  background: none;
+  border: none;
+}
+
+.menuWrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .menuWrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .mobileMenuOpen {
+    right: 0;
+  }
+
+  .menuWrapper > div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menuWrapper a {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobileMenuToggle {
+    display: none;
+  }
+
+  .menuWrapper {
+    display: flex !important;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+    overflow-y: visible;
+  }
+
+  .menuWrapper > div {
+    flex-direction: row;
+  }
+
+  .menuWrapper a {
+    margin-bottom: 0;
+  }
+}

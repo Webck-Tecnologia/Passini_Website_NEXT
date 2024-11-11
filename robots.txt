@@ -34,5 +34,3 @@ Disallow: /nobingbot/
 # Block archive.org bot
 User-agent: ia_archiver
 Disallow: /
-
-Sitemap: https://passiniequipamentos.com.br/sitemap.xml
