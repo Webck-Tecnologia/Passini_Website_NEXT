@@ -24,7 +24,7 @@ export default function Home() {
         <section id="home">
           <Hero />
         </section>
-        <section className="fancy-feature-fortyEight position-relative">
+        <section className="fancy-feature-fortyEight position-relative" id="sobre">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="sobre">
+        <section>
           <Choosen />
         </section>
         <section id="serviços">
