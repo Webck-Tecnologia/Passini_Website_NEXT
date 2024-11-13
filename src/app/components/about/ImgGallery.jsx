@@ -65,7 +65,7 @@ const ImgGallery = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/watch?v=yHr91gSUzCQ"
+              src="https://www.youtube.com/embed/yHr91gSUzCQ"
               title="Vídeo da Passini Equipamentos"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
