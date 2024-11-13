@@ -12,7 +12,7 @@ const data = [
   {
     count: 12,
     label: "Obras realizadas",
-    unit: "Mil",
+    unit: " Mil +",
     colClass: "col-lg-4 col-sm-6",
     delay: "200",
   },
