@@ -6,7 +6,7 @@ const Intro = () => {
           <div className="title-style-eleven">
             <div className="sc-title">QUEM SOMOS</div>
             <h2 className="main-title tx-dark">
-              Desenvolvemos <br /> soluções.
+              Desenvolvemos <br /> soluções
             </h2>
           </div>
           <div className="mt-4 mt-lg-5 mb-3 mb-lg-4">
