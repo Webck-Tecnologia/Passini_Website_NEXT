@@ -10,9 +10,9 @@ const data = [
     delay: "100",
   },
   {
-    count: 300,
-    label: "Empresas ajudadas",
-    unit: "+",
+    count: 12,
+    label: "Obras realizadas",
+    unit: "Mil",
     colClass: "col-lg-4 col-sm-6",
     delay: "200",
   },
