@@ -8400,16 +8400,35 @@ body .btn-twentySix:hover:after {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: #000;
+  background-color: rgba(255, 0, 0, 0.8);
   color: #fff;
   font-size: 40px;
   padding-left: 8px;
-  position: absolute;
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+  animation: pulse 1.5s infinite ease-in-out;
 }
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    background-color: rgba(255, 0, 0, 0.8);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    background-color: rgba(255, 0, 0, 0.6);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+  }
+}
+
 .fancy-feature-fortyEight .img-gallery .video-icon:hover {
   background: var(--prime-twelve);
   color: #000;
