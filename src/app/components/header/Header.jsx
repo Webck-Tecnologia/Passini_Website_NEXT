@@ -42,6 +42,8 @@ const DefaultHeader = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+/*************  ✨ Codeium Command ⭐  *************/
+/******  1669a671-a5a6-467f-b1c4-722530e66788  *******/
   const renderNavButtons = () => {
     if (isBlogPage) {
       return (

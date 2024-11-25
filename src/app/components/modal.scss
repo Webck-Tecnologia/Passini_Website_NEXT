@@ -1,0 +1,117 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-confirm {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #218838;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+.confetti {
+    position: relative;
+    height: 50px; /* Altura do contêiner de confetes */
+    overflow: hidden; /* Para esconder confetes que saem do contêiner */
+}
+
+.confetti-piece {
+    position: absolute;
+    width: 10px; /* Largura do confete */
+    height: 10px; /* Altura do confete */
+    background-color: #ffcc00; /* Cor do confete */
+    animation: fall 1s ease-in forwards infinite; /* Animação de queda */
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100px); /* Começa acima do contêiner */
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(50px); /* Cai para baixo */
+        opacity: 0; /* Desaparece ao cair */
+    }
+}
+
+/* Adicione mais confetes com diferentes cores e posições */
+.confetti-piece:nth-child(1) {
+    left: 10%;
+    background-color: #ff5733; /* Cor do confete */
+    animation-delay: 0s; /* Sem atraso */
+}
+
+.confetti-piece:nth-child(2) {
+    left: 30%;
+    background-color: #33ff57; /* Cor do confete */
+    animation-delay: 0.1s; /* Atraso para a animação */
+}
+
+.confetti-piece:nth-child(3) {
+    left: 50%;
+    background-color: #3357ff; /* Cor do confete */
+    animation-delay: 0.2s; /* Atraso para a animação */
+}
+
+.confetti-piece:nth-child(4) {
+    left: 70%;
+    background-color: #ff33a1; /* Cor do confete */
+    animation-delay: 0.3s; /* Atraso para a animação */
+}
+
+.confetti-piece:nth-child(5) {
+    left: 90%;
+    background-color: #ffcc00; /* Cor do confete */
+    animation-delay: 0.4s; /* Atraso para a animação */
+}
