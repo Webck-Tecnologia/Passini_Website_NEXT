@@ -24,3 +24,12 @@
     font-family: 'Gordita', sans-serif;
     font-size: 16px;
   }
+
+  .btn-primary {
+    background-color: #05029b !important; /* Cor de fundo do botão primário */
+    color: white; /* Cor do texto do botão primário */
+}
+
+.btn-primary:hover {
+    background-color: #0401a0 !important; /* Cor de fundo ao passar o mouse (opcional) */
+}

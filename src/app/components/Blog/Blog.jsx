@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import fetchBlogPosts from "@/app/lib/fetchBlogPosts"
 import Head from 'next/head'
+import "./blog.scss"
 
 const Blog = () => {
   const [blogPosts, setBlogPosts] = useState([])

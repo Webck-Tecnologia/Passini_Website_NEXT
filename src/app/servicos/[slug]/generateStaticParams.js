@@ -60,7 +60,7 @@ const services = [
       title: 'Soluções Personalizadas para Projetos Especiais em São Paulo',
       description: 'Desenvolvemos soluções customizadas para projetos de construção em São Paulo. Pórticos especiais, andaimes e mais.',
       detalhada: 'Combinamos engenharia avançada e tecnologia de ponta para desenvolver soluções que atendem a necessidades específicas de seus projetos de construção em São Paulo.',
-      image: '/images/servicos/projeto.png',
+      image: '/images/Projetos-Especiais/Projetos-3.webp',
       reasons: [
         'Personalização: soluções feitas sob medida.',
         'Inovação: uso de tecnologia avançada.',
@@ -73,11 +73,9 @@ const services = [
         { title: 'Satisfação do Cliente', value: 95 }
       ],
       imagesLightbox: [
-        { src: "/images/Projetos-Especiais/Projetos-2.webp", alt: "Projetos-2" },
       { src: "/images/Projetos-Especiais/Projetos-1.webp", alt: "Projetos-1" },
+      { src: "/images/Projetos-Especiais/Projetos-2.webp", alt: "Projetos-2" },
       { src: "/images/Projetos-Especiais/Projetos-3.webp", alt: "Projetos-3" },
-      { src: "/images/Projetos-Especiais/Projetos-4.webp", alt: "Projetos-4" },
-      { src: "/images/Projetos-Especiais/Projetos-5.webp", alt: "Projetos-5" },
       { src: "/images/Projetos-Especiais/Projetos-6.webp", alt: "Projetos-6" },
       { src: "/images/Projetos-Especiais/Projetos-7.webp", alt: "Projetos-7" },
       { src: "/images/Projetos-Especiais/Projetos-8.webp", alt: "Projetos-8" },
@@ -86,12 +84,8 @@ const services = [
       { src: "/images/Projetos-Especiais/Projetos-11.webp", alt: "Projetos-11" },
       { src: "/images/Projetos-Especiais/Projetos-12.webp", alt: "Projetos-12" },
       { src: "/images/Projetos-Especiais/Projetos-13.webp", alt: "Projetos-13" },
-      { src: "/images/Projetos-Especiais/Projetos-14.webp", alt: "Projetos-14" },
-      { src: "/images/Projetos-Especiais/Projetos-15.webp", alt: "Projetos-15" },
       { src: "/images/Projetos-Especiais/Projetos-16.webp", alt: "Projetos-16" },
-      { src: "/images/Projetos-Especiais/Projetos-17.webp", alt: "Projetos-17" },
-        { src: "/images/Projetos-Especiais/Projetos-18.webp", alt: "Projetos-18" },
-        { src: "/images/Projetos-Especiais/Projetos-19.webp", alt: "Projetos-19" }, 
+      { src: "/images/Projetos-Especiais/Projetos-19.webp", alt: "Projetos-19" }, 
       ]
     },
     {

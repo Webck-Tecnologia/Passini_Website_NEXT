@@ -1,0 +1,8 @@
+.blog-title {
+    display: -webkit-box; /* Usado para criar um contêiner flexível */
+    -webkit-box-orient: vertical; /* Define a orientação do contêiner como vertical */
+    -webkit-line-clamp: 2; /* Limita o número de linhas a 2 */
+    overflow: hidden; /* Oculta o texto que ultrapassa o contêiner */
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que não cabe */
+    max-width: 100%; /* Garante que o título não ultrapasse a largura do contêiner */
+}

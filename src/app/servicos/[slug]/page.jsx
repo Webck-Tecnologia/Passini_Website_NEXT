@@ -104,14 +104,22 @@ export default function ServiceDetails({ params }) {
           <div className="container">
             <div className="row">
               <div className="col-xl-9 col-lg-8 order-lg-1">
-                <div className="service-details-meta ps-lg-5">
+                <div className="flex justify-center service-details-meta ps-lg-5">
                   <h2 className="main-title tx-dark mb-30">{service.title}</h2>
                   <p className="text-lg tx-dark">{service.description}</p>
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="main-img-meta"
-                  />
+                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img
+                        src={service.image}
+                        alt={service.title}
+                        className="main-img-meta"
+                        style={{
+                            maxWidth: '80%',
+                            maxHeight: '40rem',
+                            height: 'auto',
+                            objectFit: 'cover'
+                        }}
+                    />
+                  </div>
                   <button
                     className="btn btn-primary mb-30"
                     onClick={() => {
