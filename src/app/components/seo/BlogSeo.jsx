@@ -13,7 +13,7 @@ const BlogSeo = ({ pageTitle, pageDescription }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="pt_BR" />
-      <link rel="canonical" href="https://seusite.com.br/blog" />
+      <link rel="canonical" href="https://passiniequipamentos.com.br/blog" />
     </Head>
   );
 };
