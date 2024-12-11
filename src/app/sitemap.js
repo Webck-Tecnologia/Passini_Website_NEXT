@@ -1,7 +1,7 @@
 import { fetchBlogPosts } from '@/app/lib/fetchBlogPosts';
 
 export default async function sitemap() {
-  const baseUrl = 'https://www.seusite.com.br';
+  const baseUrl = 'https://passiniequipamentos.com.br/';
 
   // Páginas estáticas
   const staticPages = [
