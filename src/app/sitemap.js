@@ -1,4 +1,4 @@
-import { fetchBlogPosts } from '@/app/lib/fetchBlogPosts';
+import { fetchBlogPosts } from '@/app/api/blog/route';
 
 // Configurações para gerar combinações
 const gruasConfig = {
@@ -78,7 +78,8 @@ export default async function sitemap() {
       lastModified: post.attributes.updatedAt,
     }));
   } catch (error) {
-    console.error('Erro ao buscar posts do blog:', error);
+    console.error('Erro ao gerar sitemap:', error);
+    return [];
   }
 
   // URLs de gruas
