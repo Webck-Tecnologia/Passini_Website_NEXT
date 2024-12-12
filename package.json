@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,6 +13,7 @@
     "dompurify": "^3.1.7",
     "he": "^1.2.0",
     "html-react-parser": "^5.1.18",
+    "lucide-react": "^0.468.0",
     "next": "14.2.15",
     "react": "^18",
     "react-circular-progressbar": "^2.1.0",
@@ -30,6 +31,7 @@
     "yet-another-react-lightbox": "^3.21.6"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.15"
   }
