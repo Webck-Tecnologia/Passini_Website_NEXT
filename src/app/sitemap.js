@@ -1,4 +1,4 @@
-import { fetchBlogPosts } from '@/app/api/blog/route';
+import fetchBlogPosts from "@/app/lib/fetchBlogPosts";
 
 // Configurações para gerar combinações
 const gruasConfig = {
